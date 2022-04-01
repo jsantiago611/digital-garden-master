@@ -650,9 +650,9 @@ hr {
     margin-top: 5px;
     margin-left: auto;
     font-weight: 600;
-    font-size: 0.7rem;
+    font-size: var(--font-size-small);
     font-family: var(--primary-font-family);
-    color: var(--lime);
+    color: var(--green);
 }
 
 .stale-link {
@@ -975,7 +975,7 @@ hr {
     margin-right: 50px;
     font-size: inherit;
     font-family:  var(--primary-font-family);
-    font-weight: var(--font-weight-base);
+    font-weight: var(--font-weight-semibold);
     letter-spacing: var(--letter-spacing-tight);
 }
 
@@ -1001,16 +1001,17 @@ hr {
 
 .tag {
     color: var(--primary-text-color);
-    background: var(--secondary-bg-color);
+    background: var(--lime);
     text-decoration: none;
     display: inline-block;
-    padding: 0 12px;
-    border-radius: 32px;
+    padding: 0 6px;
+    border-radius: 0;
     height: auto;
     vertical-align: middle;
-    font-family:  var(--primary-font-family);
+    font-family: var(--primary-font-family);
     font-weight: normal !important;
-    font-size: 13px;
+    font-size: var(--font-size-small);
+    margin-right: 7px;
 }
 
 .content {
@@ -1232,7 +1233,7 @@ label.srs-toggle {
     background-color: var(--primary-bg-color);
     border: solid 1px var(--ternary-border-color);
     border-radius: 5px;
-    box-shadow: 1px 1px 15px var(--secondary-box-shadow-color);
+    box-shadow: 1px 1px 15px var(--gray-500);
     word-wrap:break-word;
 }
 
