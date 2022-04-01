@@ -1,0 +1,43 @@
+---
+---
+
+
+
+:root {
+    --primary: {{ themes[0].colors.primary }};
+    --secondary: {{ themes[0].colors.secondary }};
+    --text: {{ themes[0].colors.text }};
+    --border: {{ themes[0].colors.border }};
+    --background: {{ themes[0].colors.background }};
+    --primaryOffset: {{ themes[0].colors.primaryOffset }};
+    --textOffset: {{ themes[0].colors.textOffset }};
+    --backgroundOffset: {{ themes[0].colors.bg-alt }};
+}
+// if user preferred color scheme is dark
+// use the dark theme
+
+@media(prefers-color-scheme: dark) {
+    :root {
+      --primary: {{ themes[1].colors.primary }};
+      --secondary: {{ themes[1].colors.secondary }};
+      --text: {{ themes[1].colors.text }};
+      --border: {{ themes[1].colors.border }};
+      --background: {{ themes[1].colors.background }};
+      --primaryOffset: {{ themes[1].colors.primaryOffset }};
+      --textOffset: {{ themes[1].colors.textOffset }};
+      --backgroundOffset: {{ themes[1].colors.bg-alt }};
+    }
+}
+
+{% for theme in themes %}
+ [data-theme="{{ theme.id }}"] {
+   --primary: {{ themes.colors.primary }};
+   --secondary: {{ themes.colors.secondary }};
+   --text: {{ themes.colors.text }};
+   --border: {{ themes.colors.border }};
+   --background: {{ themes.colors.background }};
+   --primaryOffset: {{ themes.colors.primaryOffset }};
+   --textOffset: {{ themes.colors.textOffset }};
+   --backgroundOffset: {{ themes.colors.bg-alt }};
+ }
+{% endfor %}
