@@ -643,7 +643,7 @@ hr {
     margin-top: 7px;
     align-self: center;
     justify-self: center;
-    stroke: var(--primary-text-color);
+    stroke: var(--green);
 }
 
 .menu-item-text {
