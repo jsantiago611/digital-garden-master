@@ -285,7 +285,7 @@ h3, h4, h5, h6 {
 a, p, ul, li, ol, table, span, blockquote {
     color: var(--primary-text-color);
     font-family:   var(--secondary-font-family);
-    font-size: var(--body-copy-size);  /* Let's set the font-size to something old-man friendly */
+    font-size: var(--body-copy-size);  
     line-height: 1.5em;
 }
 
@@ -703,14 +703,14 @@ hr {
     border: 0px;
     font-family: var(--secondary-font-family) !important;
     color: var(--gray-900);
-    font-size: 18px;
+    font-size: var(--body-copy-size);
     border-bottom: 1px solid var(--primary-border-color);
-    background-color: var(--gray-100);
+    background-color: var(--black);
 }
 
 ::placeholder {
     color: var(--search-placeholder-color);
-    font-size: 18px;
+    font-size: var(--body-copy-size);
     font-family:  var(--secondary-font-family) !important;
 }
 .search-icon {
@@ -718,7 +718,7 @@ hr {
     vertical-align: middle;
     margin-top: -2px;
     padding-left: 20px;
-    stroke: var(--secondary-text-color) !important;
+    stroke: var(--green) !important;
     padding-top: 12.5px;
     z-index: 1;
 }
