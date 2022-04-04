@@ -790,12 +790,12 @@ hr {
 .search-shortcut kbd:first-child, .search-shortcut kbd:nth-child(2) {
     vertical-align: middle;
     display: inline-block;
-    color: var(--secondary-text-color);
+    color: var(--gray-500);
     font-size: var(--font-size-small);
     border-radius: 0.2em;
     padding: 0.1em 0.3em;
     box-shadow:0 0px 8px var(--primary-box-shadow-color);
-   font-family: var(--font-family-mono);
+    font-family: var(--font-family-mono);
 }
 
 .searchbar input[type="text"]:focus {
