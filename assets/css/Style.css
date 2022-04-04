@@ -40,6 +40,14 @@ layout: Stylesheet
 
 @font-face {
    font-family: 'Heldane';
+   src: url('../fonts/HeldaneTextWeb-RegularItalic.woff2') format('woff2');
+   font-weight: 400;
+   font-style: italic;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Heldane';
    src: url('../fonts/heldane-display-medium.woff2') format('woff2');
    font-weight: 500;
    font-style: normal;
@@ -420,7 +428,10 @@ blockquote:before {
 }
 
 blockquote {
-    padding: 10px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-left: 16px;
+    border-left: 4px solid var(--lime);
 }
 
 
@@ -437,7 +448,8 @@ cite {
 
 blockquote p {
     font-family: var(--font-family-serif);
-    font-size: 15px;
+    font-size: var(--font-size-large);
+    font-style: italic;
 }
 
 table {
