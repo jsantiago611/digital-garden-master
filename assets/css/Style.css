@@ -319,7 +319,7 @@ h2 {
 
 h3, h4, h5, h6 {
   color: var(--text);
-  font-family:  var(--font-family-serif);
+  font-family:  var(--font-family-sans);
   font-weight: inherit;
 }
 
@@ -436,7 +436,7 @@ cite {
 }
 
 blockquote p {
-    font-family: inherit;
+    font-family: var(--font-family-serif);
     font-size: 15px;
 }
 
@@ -692,8 +692,8 @@ hr {
     margin-left: auto;
     font-weight: 600;
     font-size: var(--font-size-small);
-    font-family: var(--primary-font-family);
-    color: var(--green);
+    font-family: var(--font-family-mono);
+    color: var(--lime);
 }
 
 .stale-link {
@@ -1042,14 +1042,14 @@ hr {
 
 .tag {
     color: var(--primary-text-color);
-    background: var(--lime);
+    background: var(--green);
     text-decoration: none;
     display: inline-block;
     padding: 0 6px;
     border-radius: 0;
     height: auto;
     vertical-align: middle;
-    font-family: var(--primary-font-family);
+    font-family: var(--font-family-mono);
     font-weight: normal !important;
     font-size: var(--font-size-small);
     margin-right: 7px;
