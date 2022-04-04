@@ -1424,10 +1424,11 @@ label.srs-toggle {
     z-index: 10;
     padding: 12px 0;
     width: 177px;
-    background-color: var(--primary-bg-color);
     border: solid 1px var(--ternary-border-color);
     border-radius: 5px;
     box-shadow: 1px 1px 15px var(--secondary-box-shadow-color);
+    background-color: var(--gray-500);
+    color: var(--white);
   }
 
 .context-menu--active {
@@ -1462,6 +1463,7 @@ label.srs-toggle {
 .context-menu__link:hover {
   color: var(--primary-text-color);
   background-color: var(--secondary-bg-color);
+  text-decoration: underline;
 }
 
 .popup {
