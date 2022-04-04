@@ -31,18 +31,26 @@ layout: Stylesheet
 }
 
 @font-face {
-   font-family: 'SIGNIFIER';
-   src: url('../fonts/signifier-web-regular.woff2') format('woff2');
+   font-family: 'Heldane';
+   src: url('../fonts/heldane-display-regular.woff2') format('woff2');
    font-weight: 400;
    font-style: normal;
    font-display: swap;
 }
 
 @font-face {
-   font-family: 'SIGNIFIER';
-   src: url('../fonts/signifier-web-regular-italic.woff2') format('woff2');
-   font-weight: 400;
-   font-style: italic;
+   font-family: 'Heldane';
+   src: url('../fonts/heldane-display-medium.woff2') format('woff2');
+   font-weight: 500;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Heldane';
+   src: url('../fonts/heldane-display-bold.woff2') format('woff2');
+   font-weight: 700;
+   font-style: normal;
    font-display: swap;
 }
 
@@ -57,7 +65,23 @@ layout: Stylesheet
 @font-face {
    font-family: 'Favorit';
    src: url('../fonts/FavoritProMedium.woff2') format('woff2');
-   font-weight: 600;
+   font-weight: 500;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Favorit';
+   src: url('../fonts/Favorit-Bold.woff2') format('woff2');
+   font-weight: 700;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'FavoritMono';
+   src: url('../fonts/FavoritMonoStd-Regular.woff2') format('woff2');
+   font-weight: 400;
    font-style: normal;
    font-display: swap;
 }
@@ -112,8 +136,8 @@ layout: Stylesheet
   --line-height-snug: 1.375;
 
   /* Font family */
-  --font-family-serif: 'Georgia', serif;
-  --font-family-mono: 'SFMono-Regular', 'Menlo', monospace;
+  --font-family-serif: 'Heldane', serif;
+  --font-family-mono: 'FavoritMono', 'SFMono-Regular', 'Menlo', monospace;
   --font-family-sans: 'Favorit', 'Univers', 'Helvetica', '-apple-system', 'BlinkMacSystemFont', sans-serif;
 
   --font-family-base: var(--font-family-sans);
@@ -284,8 +308,8 @@ h6 {
 
 h1, h2 {
   color: var(--primary-text-color);
-  font-family:  var(--heading-font-family);
-  font-weight: 700;
+  font-family:  var(--font-family-serif);
+  font-weight: inherit;
 }
 
 h2 {
@@ -295,8 +319,8 @@ h2 {
 
 h3, h4, h5, h6 {
   color: var(--text);
-  font-family:  var(--primary-font-family);
-  font-weight: bold;
+  font-family:  var(--font-family-serif);
+  font-weight: inherit;
 }
 
 a, p, ul, li, ol, table, span, blockquote {
