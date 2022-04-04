@@ -47,9 +47,17 @@ layout: Stylesheet
 }
 
 @font-face {
-   font-family: 'SIGNIFIER';
-   src: url('../fonts/soehne-web-halbfett_1.woff2') format('woff2');
-   font-weight: 700;
+   font-family: 'Favorit';
+   src: url('../fonts/Favorit-Regular.woff2') format('woff2');
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Favorit';
+   src: url('../fonts/FavoritProMedium.woff2') format('woff2');
+   font-weight: 600;
    font-style: normal;
    font-display: swap;
 }
@@ -106,7 +114,7 @@ layout: Stylesheet
   /* Font family */
   --font-family-serif: 'Georgia', serif;
   --font-family-mono: 'SFMono-Regular', 'Menlo', monospace;
-  --font-family-sans: 'SOEHNE', 'Univers', 'Helvetica', '-apple-system', 'BlinkMacSystemFont', sans-serif;
+  --font-family-sans: 'Favorit', 'Univers', 'Helvetica', '-apple-system', 'BlinkMacSystemFont', sans-serif;
 
   --font-family-base: var(--font-family-sans);
 
