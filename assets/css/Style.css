@@ -681,16 +681,16 @@ hr {
 }
 
 .menu-item-icon {
-    margin-top: 7px;
+    margin-top: 0px;
     align-self: center;
     justify-self: center;
     stroke: var(--lime);
 }
 
 .menu-item-text {
-    margin-top: 5px;
+    margin-top: 0px;
     margin-left: auto;
-    font-weight: 600;
+    font-weight: 400;
     font-size: var(--font-size-small);
     font-family: var(--font-family-mono);
     color: var(--lime);
@@ -759,7 +759,7 @@ hr {
     vertical-align: middle;
     margin-top: -2px;
     padding-left: 20px;
-    stroke: var(--green) !important;
+    stroke: var(--lime) !important;
     padding-top: 12.5px;
     z-index: 1;
 }
