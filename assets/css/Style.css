@@ -1028,10 +1028,10 @@ hr {
     color: var(--text-color-base);
     margin-left: 20px;
     margin-right: 50px;
-    font-size: inherit;
     font-family:  var(--font-family-serif);
     font-weight: var(--font-weight-semibold);
     letter-spacing: var(--letter-spacing-tight);
+    font-size: var(--font-size-xl);
 }
 
 .feed-excerpt{
