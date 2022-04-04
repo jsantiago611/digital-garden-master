@@ -757,7 +757,7 @@ hr {
     border: 0px;
     font-family: var(--secondary-font-family) !important;
     color: var(--gray-900);
-    font-size: var(--body-copy-size);
+    font-size: var(--font-size-medium);
     border-bottom: 1px solid var(--green);
     background-color: var(--background-color-base);
 }
@@ -1347,6 +1347,10 @@ label.srs-toggle {
     font-weight: 600;
 }
 
+.related-title:hover {
+    font-decoration: underline;
+}
+
 .related-excerpt:before {
     content: "\"";
 }
@@ -1589,10 +1593,12 @@ label.srs-toggle {
     .bottom .tooltip-excerpt {
         font-size: 12px;
         display: inline-block;
+       background-color: var(--background-color-base);
     }
 
     .bottom .tooltip-excerpt a {
         font-size: 12px;
+       background-color: var(--background-color-base);
     }
 }
 
