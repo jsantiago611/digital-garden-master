@@ -320,7 +320,7 @@ h2 {
 h3, h4, h5, h6 {
   color: var(--text);
   font-family:  var(--font-family-sans);
-  font-weight: inherit;
+  font-weight: var(--font-weight-bold);
 }
 
 a, p, ul, li, ol, table, span, blockquote {
