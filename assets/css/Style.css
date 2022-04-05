@@ -760,6 +760,8 @@ hr {
     font-size: var(--font-size-medium);
     /*border-bottom: 1px solid var(--green);*/
     background-color: var(--white);
+    margin-top: 1em;
+    padding: 0 1.25em;
 }
 
 ::placeholder {
@@ -771,7 +773,7 @@ hr {
     position: absolute;
     vertical-align: middle;
     margin-top: -2px;
-    padding-left: 20px;
+    margin-left: -2em;
     stroke: var(--green) !important;
     padding-top: 12.5px;
     z-index: 1;
@@ -790,7 +792,7 @@ hr {
 .search-shortcut kbd:first-child, .search-shortcut kbd:nth-child(2) {
     vertical-align: middle;
     display: inline-block;
-    color: var(--gray-500);
+    color: var(--white);
     font-size: var(--font-size-small);
     border-radius: 0.2em;
     padding: 0.1em 0.3em;
@@ -1050,9 +1052,9 @@ hr {
 
 .tags {
     list-style: none;
-    margin-top: -1.5rem;
+    margin-top: -0.5rem;
       @media (min-width: 60rem) {
-         margin-top: -3rem;
+         margin-top: 0;
       }
     overflow: hidden;
     padding: 0;
