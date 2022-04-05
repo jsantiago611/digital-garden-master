@@ -130,7 +130,7 @@ layout: Stylesheet
   --font-size-5xl: 5rem;
   --font-size-6xl: 5.5rem;
 
-  --body-copy-size: 1.35rem;
+  --body-copy-size: 1.25rem;
   --title-font-size: 3rem;
 
   --font-weight-base: 400;
@@ -688,7 +688,7 @@ hr {
     flex-direction: column;
     padding-left: 14px;
     padding-right: 17px;
-    padding-top: 5px;
+    padding-top: 0;
     padding-bottom: 5px;
     text-decoration: none;
 }
@@ -758,8 +758,8 @@ hr {
     font-family: var(--secondary-font-family) !important;
     color: var(--gray-900);
     font-size: var(--font-size-medium);
-    border-bottom: 1px solid var(--green);
-    background-color: var(--background-color-base);
+    /*border-bottom: 1px solid var(--green);*/
+    background-color: var(--white);
 }
 
 ::placeholder {
