@@ -1060,7 +1060,7 @@ hr {
 
 .tags li {
     /*float: left;*/
-   line-height: var(--line-height-base);
+   line-height: var(--line-height-tight);
 }
 
 .tag {
