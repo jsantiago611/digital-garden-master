@@ -1032,7 +1032,7 @@ hr {
     font-family:  var(--font-family-serif);
     font-weight: var(--font-weight-semibold);
     letter-spacing: var(--letter-spacing-tight);
-    font-size: var(--body-copy-size));
+    font-size: var(--body-copy-size);
 }
 
 .feed-title:hover {
