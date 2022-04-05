@@ -5,6 +5,7 @@ permalink: /about/
 content-type: eg
 ---
 
+My name is Jonathan, and this site will contain everything I know about spirituality and Christianity.
 
 - I am a software engineer and a writer interested in the interplay between thoughts and constraints, the duality of interpretations and representations, and the nature of abstractions and correspondence between them. 
 
