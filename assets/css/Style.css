@@ -286,10 +286,26 @@ main {
 /* Phrasing Style: H1, H2, H3, H4, H5, H6, P, A, UL, LI */
 
 h1 {
-    font-size: var(--title-font-size);
+    /*font-size: var(--title-font-size);*/
      margin: 0.67em 0;
      line-height: var(--line-height-none);
      letter-spacing: var(--letter-spacing-tight)
+        
+        @media (max-width:699px){
+         font-size:17vw;
+        }
+   
+        @media (min-width:700px) and (max-width:1024px){
+         font-size:8rem;
+           }
+      
+        @media (min-width:1025px) and (max-width:1599px){
+               font-size:10rem;
+           }
+        @media (min-width:1600px){
+               font-size:11.85185rem;
+               line-height:.925;
+           }
 }
 
 h2 {
