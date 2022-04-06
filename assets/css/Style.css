@@ -94,6 +94,14 @@ layout: Stylesheet
    font-display: swap;
 }
 
+@font-face {
+   font-family: 'Neue';
+   src: url('../fonts/neue_montreal-book.woff2') format('woff2');
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+
 :root {
 
   /* Layouts */
@@ -144,9 +152,9 @@ layout: Stylesheet
   --line-height-snug: 1.375;
 
   /* Font family */
-  --font-family-serif: 'Heldane', serif;
+  --font-family-serif: 'Neue', serif;
   --font-family-mono: 'FavoritMono', 'SFMono-Regular', 'Menlo', monospace;
-  --font-family-sans: 'Favorit', 'Univers', 'Helvetica', '-apple-system', 'BlinkMacSystemFont', sans-serif;
+  --font-family-sans: 'Neue', 'Univers', 'Helvetica', '-apple-system', 'BlinkMacSystemFont', sans-serif;
 
   --font-family-base: var(--font-family-sans);
 
