@@ -1343,15 +1343,23 @@ label.srs-toggle {
 }
 
 .related-group {
+    background-color: var(--quaternary-bg-color) !important;
     margin-left: 10px;
     width: 90% !important;
     height: 100%;
-    border-radius: 10px;
+    border: 1px solid var(--lime);
     cursor: pointer;
+    border-radius: 0;
 }
 
 .related-group:hover {
     background-color: var(--quaternary-bg-color) !important;
+    border: 2px solid var(--lime);
+    text-decoration: underline;
+}
+
+.related-group:active {
+    border: 2px dashed var(--lime);
 }
 
 .related-group a {
@@ -1384,6 +1392,7 @@ label.srs-toggle {
     padding-left: 10px;
     padding-right: 5px;
     font-size: 12px !important;
+   font-family: var(--font-family-mono);
 }
 
 .scroll-to-top {
@@ -1500,7 +1509,8 @@ label.srs-toggle {
 
 #copyright-notice {
     font-size: 0.7rem;
-    font-weight: 700;
+    font-weight: 400;
+    font-family: var(--font-family-mono);
 }
 
 #disqus_thread {
