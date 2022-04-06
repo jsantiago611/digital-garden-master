@@ -772,9 +772,9 @@ hr {
 .search-icon {
     position: absolute;
     vertical-align: middle;
-    margin-top: -2px;
+    margin-top: 1.1em;
     margin-left: -2em;
-    stroke: var(--green) !important;
+    stroke: var(--gray-500) !important;
     padding-top: 12.5px;
     z-index: 1;
 }
@@ -792,7 +792,7 @@ hr {
 .search-shortcut kbd:first-child, .search-shortcut kbd:nth-child(2) {
     vertical-align: middle;
     display: inline-block;
-    color: var(--white);
+    color: transparent;
     font-size: var(--font-size-small);
     border-radius: 0.2em;
     padding: 0.1em 0.3em;
@@ -803,16 +803,17 @@ hr {
 .searchbar input[type="text"]:focus {
     border-color: var(--primary-border-color);
     box-shadow: 0 0 8px 0 var(--searchbox-shadow-color);
+    background-color: var(--white);
 }
 
 .searchbar input[type=text]:hover {
-    background-color: var(--quinary-bg-color);
+    background-color: var(--white);
 }
 
 .searchbar input[type=text]:active,
 .searchbar input[type=text]:focus {
-    background-color: var(--quinary-bg-color);
-    outline: none;
+    background-color: var(--white);
+    outline: 2px solid var(--lime);
 }
 
 .search_res:hover {
