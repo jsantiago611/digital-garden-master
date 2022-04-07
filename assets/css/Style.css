@@ -7,30 +7,6 @@ layout: Stylesheet
 
 
 @font-face {
-   font-family: 'SOEHNE';
-   src: url('../fonts/soehne-web-buch.woff2') format('woff2');
-   font-weight: 400;
-   font-style: normal;
-   font-display: swap;
-}
-
-@font-face {
-   font-family: 'SOEHNE';
-   src: url('../fonts/soehne-web-halbfett_1.woff2') format('woff2');
-   font-weight: 600;
-   font-style: normal;
-   font-display: swap;
-}
-
-@font-face {
-   font-family: 'SOEHNE';
-   src: url('../fonts/soehne-web-dreiviertelfett.woff2') format('woff2');
-   font-weight: 700;
-   font-style: normal;
-   font-display: swap;
-}
-
-@font-face {
    font-family: 'Heldane';
    src: url('../fonts/heldane-display-regular.woff2') format('woff2');
    font-weight: 400;
@@ -494,11 +470,11 @@ main {
 a, p, ul, li, ol, table, span, blockquote {
     color: var(--primary-text-color);
     font-family:   var(--secondary-font-family);
-    font-size: var(--body-copy-size);
+    font-size: inherit;
     line-height: 1.5em;
 }
 
-p {
+p, li {
 	font-size: 17px;
 	font-family: var(--font-family-sans);
 	font-size: 17px;
@@ -509,12 +485,12 @@ p {
 }
 
 p b,
-p strong {
+p strong, li strong {
 	font-weight: 500
 }
 
 p em,
-p i {
+p i, li em, li i {
 	font-style: italic
 }
 
@@ -537,19 +513,19 @@ p a:focus {
 }
 
 @media(min-width: 300px)and (max-width: 1499px) {
-	p {
+	p, li {
 		font-size: calc(17px + (24 - 17) * ( 100vw - 300px) / (1500 - 300))
 	}
 }
 
 @media(min-width: 1500px) {
-	p {
+	p,li {
 		font-size: 24px
 	}
 }
 
 @media(min-width: 768px) {
-	p {
+	p,li {
 		padding-left: .5vw;
 		padding-right: .5vw
 	}
