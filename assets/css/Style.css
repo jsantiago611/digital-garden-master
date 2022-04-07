@@ -263,7 +263,7 @@ main {
 	font-variant-numeric: oldstyle-nums;
 	font-feature-settings: pnum;
 	font-family: var(--font-family-serif), Times, "Times New Roman", serif;
-	font-weight: 300;
+	font-weight: 700;
 	letter-spacing: -0.015em;
 	line-height: 1;
 	margin: 36px 0 8px;
@@ -318,7 +318,7 @@ main {
  h2 {
 	font-size: 28px;
 	font-family: var(--font-family-serif), system-ui, sans-serif;
-	font-weight: 300;
+	font-weight: 700;
 	letter-spacing: -0.01em;
 	line-height: 1.2;
 	margin-top: 24px;
@@ -497,6 +497,68 @@ a, p, ul, li, ol, table, span, blockquote {
     font-size: var(--body-copy-size);
     line-height: 1.5em;
 }
+
+p {
+	font-size: 17px;
+	font-family: Academica;
+	font-size: 17px;
+	line-height: 1.4;
+	font-weight: 300;
+	padding-left: 8px;
+	padding-right: 8px
+}
+
+p b,
+p strong {
+	font-weight: 500
+}
+
+p em,
+p i {
+	font-style: italic
+}
+
+p p:not(:last-child) {
+	margin-top: 0;
+	margin-bottom: 1em
+}
+
+p a {
+	box-shadow: inset 0 -1px var(--c-border);
+	color: var(--c-text-link);
+	cursor: pointer;
+	transition: box-shadow .2s cubic-bezier(0.645, 0.045, 0.355, 1), color .2s cubic-bezier(0.645, 0.045, 0.355, 1)
+}
+
+p a:hover,
+p a:focus {
+	box-shadow: inset 0 -1px var(--c-text-strong);
+	color: var(--c-text-strong)
+}
+
+@media(min-width: 300px)and (max-width: 1499px) {
+	p {
+		font-size: calc(17px + (24 - 17) * ( 100vw - 300px) / (1500 - 300))
+	}
+}
+
+@media(min-width: 1500px) {
+	p {
+		font-size: 24px
+	}
+}
+
+@media(min-width: 768px) {
+	p {
+		padding-left: .5vw;
+		padding-right: .5vw
+	}
+}
+
+p>:last-child {
+	margin-bottom: 0
+}
+
 
 p a,
 ul a,
