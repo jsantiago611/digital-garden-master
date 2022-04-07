@@ -1,45 +1,53 @@
-// DOM Elements
+let systemInitiatedDark = window.matchMedia("(prefers-color-scheme: dark)"); 
+let theme = sessionStorage.getItem('theme');
 
-const darkButton = document.getElementById('dark');
-const lightButton = document.getElementById('light');
-const solarButton = document.getElementById('solar');
-const body = document.body;
-
-
-// Apply the cached theme on reload
-
-const theme = localStorage.getItem('theme');
-const isSolar = localStorage.getItem('isSolar');
-
-if (theme) {
-  body.classList.add(theme);
-  isSolar && body.classList.add('solar');
+if (systemInitiatedDark.matches) {
+	document.getElementById("theme-toggle").innerHTML = "Light Mode";
+} else {
+	document.getElementById("theme-toggle").innerHTML = "Dark Mode";
 }
 
-// Button Event Handlers
-
-darkButton.onclick = () => {
-  body.classList.replace('light', 'dark');
-  localStorage.setItem('theme', 'dark');
-};
-
-lightButton.onclick = () => {
-  body.classList.replace('dark', 'light');
-
-  localStorage.setItem('theme', 'light');
-};
-
-solarButton.onclick = () => {
-
-  if (body.classList.contains('solar')) {
-    
-    body.classList.remove('solar');
-    localStorage.removeItem('isSolar');
-
+function prefersColorTest(systemInitiatedDark) {
+  if (systemInitiatedDark.matches) {
+  	document.documentElement.setAttribute('data-theme', 'dark');		
+   	document.getElementById("theme-toggle").innerHTML = "Light Mode";
+   	sessionStorage.setItem('theme', '');
   } else {
-
-    body.classList.add('solar');
-    localStorage.setItem('isSolar', true);
-
+  	document.documentElement.setAttribute('data-theme', 'light');
+    document.getElementById("theme-toggle").innerHTML = "Dark Mode";
+    sessionStorage.setItem('theme', '');
   }
-};
+}
+systemInitiatedDark.addListener(prefersColorTest);
+
+
+function modeSwitcher() {
+	let theme = sessionStorage.getItem('theme');
+	if (theme === "dark") {
+		document.documentElement.setAttribute('data-theme', 'light');
+		sessionStorage.setItem('theme', 'light');
+		document.getElementById("theme-toggle").innerHTML = "Dark Mode";
+	}	else if (theme === "light") {
+		document.documentElement.setAttribute('data-theme', 'dark');
+		sessionStorage.setItem('theme', 'dark');
+		document.getElementById("theme-toggle").innerHTML = "Light Mode";
+	} else if (systemInitiatedDark.matches) {	
+		document.documentElement.setAttribute('data-theme', 'light');
+		sessionStorage.setItem('theme', 'light');
+		document.getElementById("theme-toggle").innerHTML = "Dark Mode";
+	} else {
+		document.documentElement.setAttribute('data-theme', 'dark');
+		sessionStorage.setItem('theme', 'dark');
+		document.getElementById("theme-toggle").innerHTML = "Light Mode";
+	}
+}
+
+if (theme === "dark") {
+	document.documentElement.setAttribute('data-theme', 'dark');
+	sessionStorage.setItem('theme', 'dark');
+	document.getElementById("theme-toggle").innerHTML = "Light Mode";
+} else if (theme === "light") {
+	document.documentElement.setAttribute('data-theme', 'light');
+	sessionStorage.setItem('theme', 'light');
+	document.getElementById("theme-toggle").innerHTML = "Dark Mode";
+}
