@@ -500,7 +500,7 @@ a, p, ul, li, ol, table, span, blockquote {
 
 p {
 	font-size: 17px;
-	font-family: Academica;
+	font-family: var(--font-family-sans);
 	font-size: 17px;
 	line-height: 1.4;
 	font-weight: 300;
@@ -1637,7 +1637,7 @@ label.srs-toggle {
     padding-left: 10px;
     padding-right: 5px;
     font-size: 12px !important;
-   font-family: var(--font-family-mono);
+   font-family: var(--font-family-sans);
 }
 
 .scroll-to-top {
