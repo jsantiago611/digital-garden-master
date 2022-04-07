@@ -582,7 +582,7 @@ cite a {
 	left: 0;
 	height: 6px;
 	width: 6px;
-	background-color: var(--c-accent);
+	background-color: var(--lime);
 	border-radius: 50%;
 	content: "";
 	position: absolute
@@ -601,21 +601,21 @@ cite a {
 }
 
  ul ul ul li::before {
-	background-color: var(--c-accent)
+	background-color: var(--lime)
 }
 
  ul ul ul ul li::before {
 	background: transparent;
-	border: 1px solid var(--c-accent)
+	border: 1px solid var(--lime)
 }
 
  ul ul ul ul ul li::before {
-	background-color: var(--c-accent)
+	background-color: var(--lime)
 }
 
  ul ul ul ul ul ul li::before {
 	background: transparent;
-	border: 1px solid var(--c-accent)
+	border: 1px solid var(--lime)
 }
 
  ol {
