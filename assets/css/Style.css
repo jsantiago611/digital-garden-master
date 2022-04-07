@@ -154,7 +154,7 @@ layout: Stylesheet
   /* Font family */
   --font-family-serif: 'Heldane', serif;
   --font-family-mono: 'FavoritMono', 'SFMono-Regular', 'Menlo', monospace;
-  --font-family-sans: 'Neue', 'Univers', 'Helvetica', '-apple-system', 'BlinkMacSystemFont', sans-serif;
+  --font-family-sans: 'Favorit', 'Univers', 'Helvetica', '-apple-system', 'BlinkMacSystemFont', sans-serif;
 
   --font-family-base: var(--font-family-sans);
 
@@ -1275,12 +1275,35 @@ hr {
 
 .tags {
     list-style: none;
-    margin-top: -0.5rem;
-      @media (min-width: 60rem) {
-         margin-top: 0;
-      }
+    padding-top: 18px;
+    padding-bottom: 18px;
+    position: relative;
     overflow: hidden;
     padding: 0;
+}
+
+@media(min-width: 600px) {
+	.tags{
+		padding-top: 24px
+	}
+}
+
+@media(min-width: 1070px) {
+	.tags{
+		padding-top: 36px
+	}
+}
+
+@media(min-width: 600px) {
+	.tags{
+		padding-bottom: 24px
+	}
+}
+
+@media(min-width: 1070px) {
+	.tags{
+		padding-bottom: 36px
+	}
 }
 
 .tags li {
