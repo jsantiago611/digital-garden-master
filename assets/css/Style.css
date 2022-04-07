@@ -158,6 +158,17 @@ layout: Stylesheet
 }
 }
 
+.dark {
+--text-color-base: var(--white);
+  --background-color-base: #0b0b0b;
+
+  --green: #70af38;
+  --gray-100: #3f3f3f;
+  --gray-500: #545653;
+  --gray-900: #c6c6c6;
+  --lime: #2a4c20
+}
+
 @media (min-width: 48rem) {:root {
     --body-copy-size: 1.76rem;
     --title-font-size: var(--font-size-5xl)
