@@ -152,7 +152,7 @@ layout: Stylesheet
   --line-height-snug: 1.375;
 
   /* Font family */
-  --font-family-serif: 'Neue', serif;
+  --font-family-serif: 'Heldane', serif;
   --font-family-mono: 'FavoritMono', 'SFMono-Regular', 'Menlo', monospace;
   --font-family-sans: 'Neue', 'Univers', 'Helvetica', '-apple-system', 'BlinkMacSystemFont', sans-serif;
 
@@ -168,36 +168,6 @@ layout: Stylesheet
     /* Border */
     --border-width: 2px;
     --border-width-thick: 4px;
-
-
-/*
-    --main-hue: 0;
-    --primary-bg-color: hsl(var(--main-hue), 0%, 100%);
-    --secondary-bg-color: hsl(var(--main-hue), 0%, 96.9%);
-    --ternary-bg-color: hsl(var(--main-hue), 0%, 91.4%);
-    --quaternary-bg-color: hsl(var(--main-hue), 0%, 93%);
-    --quinary-bg-color: hsl(var(--main-hue), 100%, 100%);
-
-    --primary-border-color: hsl(var(--main-hue), 0%, 96.9%);
-    --secondary-border-color: hsl(var(--main-hue), 0%, 91.4%);
-    --ternary-border-color: hsl(var(--main-hue), 0%, 87.5%);
-
-    --primary-box-shadow-color: hsl(var(--main-hue), 0%, 86.7%);
-    --secondary-box-shadow-color: hsl(var(--main-hue), 0%, 81.2%);
-
-    --primary-text-color: hsl(var(--main-hue), 0%, 33.3%);
-    --secondary-text-color: hsl(var(--main-hue), 0%, 53.3%);
-    --tertiary-text-color: hsl(var(--main-hue), 0%, 43.4%);
-
-    --horizontal-rule-color: rgb(228, 227, 226);
-    --anchor-text-color: hsl(210, 52.8%, 51.0%);
-    --anchor-link-color: hsl(205, 12%, 70%);
-    --search-placeholder-color: hsl(var(--main-hue), 0%, 60.0%);
-    --searchbox-shadow-color:  hsl(204, 63.0%, 78.8%);
-    --heading-font-family: 'SOEHNE', -apple-system,system-ui,BlinkMacSystemFont,"Helvetica","Arial",sans-serif;
-    --primary-font-family: 'SOEHNE', -apple-system,system-ui,BlinkMacSystemFont,"Helvetica","Arial",sans-serif;
-    --secondary-font-family: 'SOEHNE', sans-serif;
-    */
 }
 
 @media (prefers-color-scheme: dark) {:root {
@@ -285,72 +255,240 @@ main {
 
 /* Phrasing Style: H1, H2, H3, H4, H5, H6, P, A, UL, LI */
 
-h1 {
-    /*font-size: var(--title-font-size);*/
-     margin: 0.67em 0;
-     line-height: var(--line-height-none);
-     letter-spacing: var(--letter-spacing-tight);
-        
-        @media (max-width:699px){
-         font-size:17vw;
-        }
-        @media (min-width:700px) and (max-width:1024px){
-         font-size:8rem;
-           }
-        @media (min-width:1025px) and (max-width:1599px){
-               font-size:10rem;
-           }
-        @media (min-width:1600px){
-               font-size:11.85185rem;
-               line-height:.925;
-           }
+
+
+ h1 {
+	font-size: 28px;
+	font-variant-ligatures: common-ligatures;
+	font-variant-numeric: oldstyle-nums;
+	font-feature-settings: pnum;
+	font-family: var(--font-family-serif), Times, "Times New Roman", serif;
+	font-weight: 300;
+	letter-spacing: -0.015em;
+	line-height: 1;
+	margin: 36px 0 8px;
+	color: var(--c-text-strong)
 }
 
-h2 {
-     font-size: var(--font-size-large);
-     @media (min-width: 60rem) {
-      font-size: var(--font-size-5xl);
-      }
-     line-height: var(--line-height-tight);
-     font-weight: var(--font-weight-semibold);
+@media(min-width: 300px)and (max-width: 1069px) {
+	 h1 {
+		font-size: calc(28px + (72 - 28) * ( 100vw - 300px) / (1070 - 300))
+	}
 }
 
-h3 {
-    font-size: 19px;
-    font-size: var(--font-size-large);
-    font-weight: var(--font-weight-semibold);
+@media(min-width: 1070px) {
+	 h1 {
+		font-size: 72px
+	}
 }
 
-h4 {
-    font-size: 15.5px;
-    font-weight: var(--font-weight-semibold);
+ h1 a {
+	box-shadow: inset 0 -10px var(--c-bg), inset 0 -11px var(--c-border);
+	color: var(--c-text-link);
+	cursor: pointer;
+	transition: box-shadow .2s cubic-bezier(0.645, 0.045, 0.355, 1), color .2s cubic-bezier(0.645, 0.045, 0.355, 1)
 }
 
-h5 {
-    font-size: 15px;
-    font-weight: var(--font-weight-semibold);
+ h1 a:hover,
+ h1 a:focus {
+	box-shadow: inset 0 -10px var(--c-bg), inset 0 -11px var(--c-text-strong);
+	color: var(--c-text-strong)
 }
 
-h6 {
-    font-size: 13px;
-    font-weight: var(--font-weight-semibold);
+@media(min-width: 600px) {
+	 h1 a {
+		box-shadow: inset 0 -14px var(--c-bg), inset 0 -15px var(--c-border);
+		color: var(--c-text-link);
+		cursor: pointer;
+		transition: box-shadow .2s cubic-bezier(0.645, 0.045, 0.355, 1), color .2s cubic-bezier(0.645, 0.045, 0.355, 1)
+	}
+	 h1 a:hover,
+	 h1 a:focus {
+		box-shadow: inset 0 -14px var(--c-bg), inset 0 -15px var(--c-text-strong);
+		color: var(--c-text-strong)
+	}
 }
 
-h1, h2 {
-  color: var(--primary-text-color);
-  font-family:  var(--font-family-serif);
-  font-weight: inherit;
+@media(min-width: 768px) {
+	 h1 {
+		margin: 120px 0 12px
+	}
 }
 
-h2 {
-  /* padding-bottom: 0.25em;
-     border-bottom: 1px solid var(--secondary-border-color); */
+ h2 {
+	font-size: 28px;
+	font-family: var(--font-family-serif), system-ui, sans-serif;
+	font-weight: 300;
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	margin-top: 24px;
+	padding: 24px 0 5px;
+	color: var(--c-text-strong)
 }
 
-h3, h4, h5, h6 {
-  color: var(--text);
-  font-family:  var(--font-family-sans);
-  font-weight: var(--font-weight-bold);
+@media(min-width: 300px)and (max-width: 1499px) {
+	 h2 {
+		font-size: calc(28px + (36 - 28) * ( 100vw - 300px) / (1500 - 300))
+	}
+}
+
+@media(min-width: 1500px) {
+	 h2 {
+		font-size: 36px
+	}
+}
+
+ h2 a {
+	box-shadow: inset 0 -4px var(--c-bg), inset 0 -5px var(--c-border);
+	color: var(--c-text-link);
+	cursor: pointer;
+	transition: box-shadow .2s cubic-bezier(0.645, 0.045, 0.355, 1), color .2s cubic-bezier(0.645, 0.045, 0.355, 1)
+}
+
+ h2 a:hover,
+ h2 a:focus {
+	box-shadow: inset 0 -4px var(--c-bg), inset 0 -5px var(--c-text-strong);
+	color: var(--c-text-strong)
+}
+
+@media(min-width: 600px) {
+	 h2 a {
+		box-shadow: inset 0 -6px var(--c-bg), inset 0 -7px var(--c-border);
+		color: var(--c-text-link);
+		cursor: pointer;
+		transition: box-shadow .2s cubic-bezier(0.645, 0.045, 0.355, 1), color .2s cubic-bezier(0.645, 0.045, 0.355, 1)
+	}
+	 h2 a:hover,
+	 h2 a:focus {
+		box-shadow: inset 0 -6px var(--c-bg), inset 0 -7px var(--c-text-strong);
+		color: var(--c-text-strong)
+	}
+}
+
+@media(min-width: 768px) {
+	 h2 {
+		margin-top: 0;
+		padding: 60px 0 12px
+	}
+}
+
+ h3 {
+	font-size: 21px;
+	font-family: var(--font-family-serif), system-ui, sans-serif;
+	font-weight: 500;
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	margin: 36px 0 5px;
+	color: var(--c-text-strong)
+}
+
+@media(min-width: 300px)and (max-width: 1199px) {
+	 h3 {
+		font-size: calc(21px + (24 - 21) * ( 100vw - 300px) / (1200 - 300))
+	}
+}
+
+@media(min-width: 1200px) {
+	 h3 {
+		font-size: 24px
+	}
+}
+
+@media(min-width: 768px) {
+	 h3 {
+		margin: 60px 0 12px
+	}
+}
+
+ h4 {
+	font-size: 17px;
+	font-family: var(--font-family-serif), system-ui, sans-serif;
+	font-weight: 400;
+	letter-spacing: .1em;
+	line-height: 1.2;
+	text-transform: uppercase;
+	margin: 36px 0 5px;
+	color: var(--c-text-strong)
+}
+
+@media(min-width: 300px)and (max-width: 1199px) {
+	 h4 {
+		font-size: calc(17px + (19 - 17) * ( 100vw - 300px) / (1200 - 300))
+	}
+}
+
+@media(min-width: 1200px) {
+	 h4 {
+		font-size: 19px
+	}
+}
+
+ h4 b,
+ h4 strong {
+	font-weight: 500
+}
+
+@media(min-width: 768px) {
+	 h4 {
+		margin: 60px 0 8px
+	}
+}
+
+ h5 {
+	font-size: 17px;
+	font-family: var(--font-family-serif);
+	font-size: 17px;
+	line-height: 1.4;
+	font-weight: 300;
+	margin: 24px 0 5px;
+	color: var(--c-text-muted)
+}
+
+@media(min-width: 300px)and (max-width: 1499px) {
+	 h5 {
+		font-size: calc(17px + (24 - 17) * ( 100vw - 300px) / (1500 - 300))
+	}
+}
+
+@media(min-width: 1500px) {
+	 h5 {
+		font-size: 24px
+	}
+}
+
+@media(min-width: 768px) {
+	 h5 {
+		margin: 60px 0 8px
+	}
+}
+
+ h6 {
+	font-size: 17px;
+	font-family: var(--font-family-serif);
+	font-size: 17px;
+	line-height: 1.4;
+	font-weight: 300;
+	font-style: italic;
+	margin: 24px 0 5px;
+	color: var(--c-text-muted)
+}
+
+@media(min-width: 300px)and (max-width: 1499px) {
+	 h6 {
+		font-size: calc(17px + (24 - 17) * ( 100vw - 300px) / (1500 - 300))
+	}
+}
+
+@media(min-width: 1500px) {
+	 h6 {
+		font-size: 24px
+	}
+}
+
+@media(min-width: 768px) {
+	 h6 {
+		margin: 60px 0 8px
+	}
 }
 
 a, p, ul, li, ol, table, span, blockquote {
