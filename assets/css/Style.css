@@ -1356,7 +1356,11 @@ summary {
     font-weight: 400;
     font-size: var(--font-size-small);
     font-family: var(--font-family-mono);
-    color: var(--green);
+    color: var(--c-text-muted);
+}
+
+.menu-item-text:hover {
+    color: var(--c-text-link);
 }
 
 .stale-link {
