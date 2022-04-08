@@ -1336,8 +1336,8 @@ summary {
     border-right: 1px solid var(--primary-border-color);
     display: flex;
     flex-direction: column;
-    padding-left: 14px;
-    padding-right: 17px;
+    padding-left: 0px; /*previously 14*/
+    padding-right: 0px; /*previously 17*/
     padding-top: 0;
     padding-bottom: 5px;
     text-decoration: none;
