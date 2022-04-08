@@ -1791,7 +1791,7 @@ a.button-block {
     height: 40px;
     border: 0px;
     font-family: var(--secondary-font-family) !important;
-    color: var(--bg);
+    color: var(--c-text);
     font-size: var(--font-size-medium);
     /*border-bottom: 1px solid var(--green);*/
     background-color: var(--c-card-bg-light);
@@ -1800,7 +1800,7 @@ a.button-block {
 }
 
 ::placeholder {
-    color: var(--c-text);
+    color: var(--c-text-muted);
     font-size: 1rem;
     font-family:  var(--secondary-font-family) !important;
 }
@@ -1842,13 +1842,13 @@ a.button-block {
 }
 
 .searchbar input[type=text]:hover {
-    background-color: var(--white);
+    background-color: var(--c-card-bg-light);
 }
 
 .searchbar input[type=text]:active,
 .searchbar input[type=text]:focus {
-    background-color: var(--white);
-    outline: 2px solid var(--lime);
+    background-color: var(--c-card-bg-light);
+    outline: 2px solid var(--c-border);
 }
 
 .search_res:hover {
@@ -2064,7 +2064,7 @@ a.button-block {
 }
 
 .feed-title {
-    color: var(--text-color-base);
+    color: var(--c-text-strong);
     margin-left: 20px;
     margin-right: 50px;
     font-family:  var(--font-family-serif);
