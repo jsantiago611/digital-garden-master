@@ -5,27 +5,7 @@ permalink: /about/
 content-type: eg
 ---
 
-My name is Jonathan, and this site will contain everything I know about spirituality and Christianity.
-
-- I am a software engineer and a writer interested in the interplay between thoughts and constraints, the duality of interpretations and representations, and the nature of abstractions and correspondence between them. 
-
-- I am a long time practioner of Vipassana, but I am also a fallibilist with a slight objectivist bent. So I probably have a very different view of meditation than most people. We can talk about it if you want to.
-
-- On this website I write articles about [[Computer Science::/tags/#Software]], [[Philosophy::/tags/#Philosophy]], Mathematics, and [[Generic Life Stuff::/tags/#General]]. Sometimes I also [[review::/tags/#Review]] books that I've read. You can find my programming side-projects on [[github::https://www.github.com/rgvr]]
-
-- I have a [[youtube channel::https://www.youtube.com/channel/UCESc8TaWpQxpHEnfhQLgzPQ]] on which I stream my work log(live writing sessions, coding sessions, reading/researching sessions, etc).
-  
-- If you find anything interesting about who I am or what I do, please do reach out to me. 👇
-
-
-## Reach out to me
-
-- Shoot me a dm or just tweet ***[[@rgvrme::https://twitter.com/r]]***. I will try to reply as soon as I can. 
-  
-- I live in Bangalore, so If you happen to be in Bangalore by chance and want to chat, drop an ***[[email::mailto:raghu@rgvr.me]]*** and include [Coffee] in the subject line, and we can work something out.
-  
-- If you are not comfortable reaching out to me directly, you can also anonymously give me [[feedback::https://www.admonymous.co/rgvr]]
-
+This is the website (or, Digital Garden[[A garden is something inbetween a personal blog and a wiki. It's a collection of evolving notes, essays, and ideas that aren't strictly organised by their publication date. They're inherently *exploratory* – posts are linked through contextual associations. They aren't refined or complete - posts can be published as half-finished thoughts that will grow and evolve over time. They're less rigid, less performative, and less perfect than the personal "blogs" we're used to encountering on the web.::rsn]]) of Jonathan Santiago. I write mainly about spirituality, theology, and spiritual formation. This space is meant to be an exploratory space where I [[learn in public::https://www.swyx.io/learn-in-public/]] about Christianity and the Bible. 
 
 ## About the website
 
@@ -54,7 +34,7 @@ My name is Jonathan, and this site will contain everything I know about spiritua
    - Bad link: [[Title of a page that doesn't exist]]
 
 
-Some Less know features:
+Some Lesser know features:
 
 - Go back to the blog home or to the notes page, and try to right click on any of the entry. [Hint: Zettelkasten]
 
