@@ -1398,6 +1398,26 @@ summary {
 
 /* Common custom components between Main Site and Notes: Searchbar, Backbutton, ContentBox, Related Posts/Notes, Copyright,  */
 
+.button, 
+#theme-toggle {
+    height: 35px;
+    width: 90px;
+    position: absolute;
+    top: 28px;
+    right: 20px;
+    align-items: center;
+    background-color: var(--c-btn-bg);
+    border: 1px solid var(--c-btn-alt-bg);
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    z-index: 90;
+    font-family: var(--font-family-serif);
+    font-style: italic;
+    color: var(--c-text);
+    cursor: pointer;
+}
+
 .button,
 a.button {
 	border: solid 1px transparent;
