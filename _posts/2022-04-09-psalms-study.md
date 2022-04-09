@@ -3,8 +3,9 @@ title: How to pray with the psalms
 tags: Psalms
 status: ongoing
 ---
+
 **Intended audience:** Christians who want to read the Psalms to enrich and inform their own prayers. [["Praying with the Psalms" by Timothy Keller::rsn]] 
----
+
 **Epistemic status:** Pretty settled on this structure. Spent months and months reading through books and material before settling on this workflow.
 ---
 I agree with Tim Keller when he says, 
@@ -13,7 +14,7 @@ I agree with Tim Keller when he says,
 
 Heres a pathway that I'm recording to remember but also to share with all who want to progress from study to meditation to prayer. Major portions of this are taken directly from Praying with the Psalms:
 
-## The Framework I'm using to study+pray through the psalms
+### The Framework I'm using to study+pray through the psalms
 
 1. **Read:**Read the psalm at least 3 times, slowly.
 2. **Theme:** Decide on a theme and paraphrase it in a single phrase or sentence.
