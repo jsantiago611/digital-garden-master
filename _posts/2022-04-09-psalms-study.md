@@ -7,7 +7,9 @@ status: ongoing
 **Intended audience:** Christians who want to read the Psalms to enrich and inform their own prayers. [["Praying with the Psalms" by Timothy Keller::rsn]] 
 
 **Epistemic status:** Pretty settled on this structure. Spent months and months reading through books and material before settling on this workflow.
+
 ---
+
 I agree with Tim Keller when he says, 
 
 >"It will be much easier to pray a psalm after you’ve first studied it. If you don’t understand it, you will find it hard to meditate or pray it."
