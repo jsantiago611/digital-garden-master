@@ -720,7 +720,7 @@ cite a {
 	position: absolute;
 	top: 0;
 	left: 0;
-	font-family: Theinhardt, system-ui, sans-serif;
+	font-family: var(--font-family-sans), system-ui, sans-serif;
 	font-size: 1.4;
 	font-weight: 300;
 	content: counter(counter);
@@ -787,7 +787,7 @@ cite a {
 }
 
  blockquote cite {
-	font-family: Theinhardt, system-ui, sans-serif;
+	font-family: var(--font-family-sans), system-ui, sans-serif;
 	font-size: 16px;
 	line-height: 1.4;
 	font-weight: 400;
