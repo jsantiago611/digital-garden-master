@@ -317,7 +317,7 @@ main {
 	font-variant-numeric: oldstyle-nums;
 	font-feature-settings: pnum;
 	font-family: var(--font-family-serif), Times, "Times New Roman", serif;
-	font-weight: 700;
+	font-weight: 500;
 	letter-spacing: -0.015em;
 	line-height: 1;
 	margin: 36px 0 8px;
@@ -372,7 +372,7 @@ main {
  h2 {
 	font-size: 28px;
 	font-family: var(--font-family-serif), system-ui, sans-serif;
-	font-weight: 700;
+	font-weight: 500;
 	letter-spacing: -0.01em;
 	line-height: 1.2;
 	margin-top: 24px;
@@ -2091,9 +2091,10 @@ a.button-block {
     margin-left: 20px;
     margin-right: 50px;
     font-family:  var(--font-family-serif);
-    font-weight: var(--font-weight-base);
+    font-weight: var(--font-weight-semibold);
     letter-spacing: var(--letter-spacing-tight);
     font-size: 28px;
+    line-height: 1;
 
     @media(min-width: 300px)and (max-width:1499px) {
       font-size: calc(28px + (49 - 28) * ( 100vw - 300px) / ( 1500 - 300))
@@ -2123,39 +2124,59 @@ a.button-block {
     padding-bottom: 18px;
     position: relative;*/
     overflow: hidden;
-    padding: 0;
-    margin:0;
+    padding: 10px;
+    margin-top:2rem;
+    margin-bottom: 9px;
     display: block;
+
+    @media(min-width: 600px) {
+    	.tags{
+    		margin-top: 24px
+    	}
+    }
+
+    @media(min-width: 1070px) {
+    	.tags{
+    		margin-top: 24px
+    	}
+    }
+    /*background-color: var(--c-card-bg-light);
+    padding: 10px;
+    border: 1px solid car(--c-card-border-light);
+    color: var(--c-card-text) !important;*/
 }
 
 /*
 @media(min-width: 600px) {
 	.tags{
-		padding-top: 24px
+		padding-top: 15px
 	}
 }
 
 @media(min-width: 1070px) {
 	.tags{
-		padding-top: 36px
+		padding-top: 26px
 	}
-}
+} */
 
 @media(min-width: 600px) {
 	.tags{
-		padding-bottom: 24px
+		margin-top: 24px
 	}
 }
 
 @media(min-width: 1070px) {
 	.tags{
-		padding-bottom: 36px
+		margin-top: 15px
 	}
 }
-*/
+
 
 .tags li {
     float: left;
+    margin:0;
+    padding:0;
+    line-height:1.4;
    /*line-height: var(--line-height-tight);*/
 }
 
@@ -2184,7 +2205,7 @@ a.button-block {
     font-family: var(--font-family-mono);
     font-weight: normal !important;
     font-size: var(--font-size-small);
-    margin-bottom: 7px;
+    margin-bottom: 0;
     background-color: var(--c-card-bg-light);
 }
 
