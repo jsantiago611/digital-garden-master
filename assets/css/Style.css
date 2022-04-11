@@ -73,7 +73,7 @@ layout: Stylesheet
 
 /*light/dark mode colors*/
 
-html, html[data-theme="light"] { 
+html, html[data-theme="light"] {
 	--c-bg: #f5f3ef;
 	--c-accent: #946e24;
 	--c-text: #1c1c1c;
@@ -148,8 +148,8 @@ html[data-theme="dark"] {
 	--c-gradient-fade: linear-gradient(90deg, rgba(28, 28, 28, 0) 0%, rgba(28, 28, 28, 0.75) 50%, #1c1c1c 100%);
 	--c-gradient-fade-vert: linear-gradient(180deg, rgba(28, 28, 28, 0) 0%, rgba(28, 28, 28, 0.75) 50%, #1c1c1c 100%)
 	}
-	
-	html[data-theme="light"] { 
+
+	html[data-theme="light"] {
 	--c-bg: #f5f3ef;
 	--c-accent: #946e24;
 	--c-text: #1c1c1c;
@@ -629,7 +629,7 @@ span a,
 div a,
 ol a,
 blockquote a,
-cite a { 
+cite a {
     font-size: inherit;
     font-family: inherit;
     color: inherit;
@@ -656,7 +656,7 @@ cite a {
 
  ul li::before {
 	position: absolute;
-	top: .45em;
+	top: .5em;
 	left: 0;
 	height: 6px;
 	width: 6px;
@@ -2111,13 +2111,16 @@ a.button-block {
 
 .tags {
     list-style: none;
-    padding-top: 18px;
+  /*  padding-top: 18px;
     padding-bottom: 18px;
-    position: relative;
+    position: relative;*/
     overflow: hidden;
     padding: 0;
+    margin:0;
+    display: block;
 }
 
+/*
 @media(min-width: 600px) {
 	.tags{
 		padding-top: 24px
@@ -2141,17 +2144,18 @@ a.button-block {
 		padding-bottom: 36px
 	}
 }
+*/
 
 .tags li {
-    /*float: left;*/
-   line-height: var(--line-height-tight);
+    float: left;
+   /*line-height: var(--line-height-tight);*/
 }
 
 .tag {
     color: var(--green);
     text-decoration: none;
     display: inline-block;
-    padding: 0 6px;
+    padding: 0 12px;
     border-radius: 0;
     height: auto;
     vertical-align: middle;
@@ -2161,19 +2165,40 @@ a.button-block {
     margin-right: 7px;
 }
 
-.readtime {
-    color: var(--green);
+.status {
+    color: var(--c-card);
     text-decoration: none;
     display: inline-block;
-    padding: 0 6px;
+    padding: 0 10px !important;
+    border-radius: 5px !important;
+    height: auto;
+    vertical-align: middle;
+    font-family: var(--font-family-mono);
+    font-weight: normal !important;
+    font-size: var(--font-size-small);
+    margin-bottom: 7px;
+    background-color: var(--c-card-bg-light);
+
+
+}
+
+.status::before {
+  width: 0;
+  height: 0;
+}
+
+.readtime {
+    color: var(--c-text);
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 12px;
     border-radius: 0;
     height: auto;
     vertical-align: middle;
     font-family: var(--font-family-mono);
     font-weight: normal !important;
     font-size: var(--font-size-small);
-    margin-right: 7px;
-    margin-bottom: 0;
+    margin: 0;
 }
 
 .content {
