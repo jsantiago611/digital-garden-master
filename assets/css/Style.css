@@ -2091,9 +2091,17 @@ a.button-block {
     margin-left: 20px;
     margin-right: 50px;
     font-family:  var(--font-family-serif);
-    font-weight: var(--font-weight-semibold);
+    font-weight: var(--font-weight-base);
     letter-spacing: var(--letter-spacing-tight);
-    font-size: var(--body-copy-size);
+    font-size: 28px;
+
+    @media(min-width: 300px)and (max-width:1499px) {
+      font-size: calc(28px + (49 - 28) * ( 100vw - 300px) / ( 1500 - 300))
+    }
+
+    @media(min-width: 1500px) {
+      font-size: 49px;
+    }
 }
 
 .feed-title:hover {
@@ -2178,8 +2186,6 @@ a.button-block {
     font-size: var(--font-size-small);
     margin-bottom: 7px;
     background-color: var(--c-card-bg-light);
-
-
 }
 
 .status::before {
