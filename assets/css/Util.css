@@ -98,14 +98,14 @@ layout: Stylesheet
 }
 
 .dont-decorate {
-    background: rgb(242,242,242); 
-    background: linear-gradient(180deg, rgba(242,242,242,1) 15%, rgba(245,245,245,1) 54%, rgba(253,253,253,1) 100%); 
+    background: rgb(242,242,242);
+    background: linear-gradient(180deg, rgba(242,242,242,1) 15%, rgba(245,245,245,1) 54%, rgba(253,253,253,1) 100%);
 }
 
 .boxit {
     padding: 20px;
-    background-color: var(--secondary-bg-color);
-    border-radius: 5px;
+    background-color: var(--c-card-bg-light);
+    border-radius: 0;
 }
 
 #boxit {

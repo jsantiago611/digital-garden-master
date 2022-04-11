@@ -4,8 +4,10 @@ tags: Psalms Prayer
 status: ongoing
 ---
 
-**Intended audience:** Christians who want to read the Psalms to enrich and inform their own prayers. [[Idea inspired by Pastor Tim Keller's books "Praying with the Psalms" & "Prayer", in addition to his study "Praying with the Psalms"::rsn]]
+{:.boxit}
+**Intended audience:** Christians who want to read the Psalms to enrich and inform their own prayers. [[Idea inspired by Pastor Tim Keller's books "Praying with the Psalms" & "Prayer", in addition to his study "Praying with the Psalms"::rmn]]
 
+{:.boxit}
 **Epistemic status:** Pretty settled on this structure. Spent months and months reading through books and material before settling on this workflow.
 
 ---
@@ -16,7 +18,7 @@ I agree with Tim Keller when he says,
 
 Here's a pathway that I'm recording to remember but also to share with all who want to progress from study to meditation to prayer. Major portions of this are taken directly from Praying with the Psalms:
 
-### The Framework I'm using to study & pray through the psalms
+## The Framework I'm using to study & pray through the psalms
 
 1. **Read:** Read the psalm at least 3 times, slowly.
 2. **Theme:** Decide on a theme and paraphrase it in a single phrase or sentence.
