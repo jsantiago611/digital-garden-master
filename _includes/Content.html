@@ -6,7 +6,7 @@
     <li><p class="readtime">{%- include read_time.html -%}</p></li>
     <li><a href="javascript:void(0)" class="tag"><b>Status:</b> <i>{{page.status | capitalize}}</i></a></li>
     {%- endif -%}
-    <li>Last updated on <a href="/dates/#{{ page.date | date: '%d-%B-%Y' }}" class="tag">{{ page.date | date: '%B-%d-%Y' }}</a></li>
+    <li><a href="/dates/#{{ page.date | date: '%d-%B-%Y' }}" class="tag"><p>Last updated on </p>{{ page.date | date: '%B-%d-%Y' }}</a></li>
     <!-- Loop through page categories and print them in tags -->
     {%- for tag in page.tags -%}
         {%- if tag == 'Favorite' -%}
