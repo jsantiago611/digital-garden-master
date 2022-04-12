@@ -1292,7 +1292,7 @@ summary {
 
 .site-heading-ltr a {
     text-decoration: none;
-    font-weight: var(--font-weight-base);
+    font-weight: var(--font-weight-semibold);
     font-size: 1rem;
     font-family: var(--font-family-serif);
 }
@@ -1430,7 +1430,7 @@ summary {
 
 .menu-item-text:hover {
     color: var(--c-text-link);
-    font-weight: bold;
+    font-weight: var(--font-weight-semibold);
 }
 
 .stale-link {
@@ -1489,6 +1489,10 @@ summary {
     color: var(--c-text);
     cursor: pointer;
     font-weight: 400;
+}
+
+#theme-toggle:hover {
+    font-weight: 500;
 }
 
 .button,
