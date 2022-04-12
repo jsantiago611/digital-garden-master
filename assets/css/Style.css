@@ -60,7 +60,7 @@ layout: Stylesheet
    font-weight: 400;
    font-style: normal;
    font-display: swap;
-   font-size: -0.01em;
+   font-size: -0.02em;
 }
 
 @font-face {
@@ -69,8 +69,9 @@ layout: Stylesheet
    font-weight: 400;
    font-style: italic;
    font-display: swap;
-   font-size: -0.01em;
+   font-size: -0.02em;
 }
+/* 
 
 @font-face {
    font-family: 'Heldane';
@@ -134,7 +135,7 @@ layout: Stylesheet
    font-weight: 400;
    font-style: normal;
    font-display: swap;
-}
+} */
 
 /*light/dark mode colors*/
 
