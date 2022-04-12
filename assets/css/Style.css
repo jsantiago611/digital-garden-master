@@ -841,7 +841,7 @@ cite a {
  blockquote p {
 	border-left: 5px solid var(--c-border-light);
 	color: var(--c-text-muted);
-	padding-left: 1em
+	padding-left: 1em;
 	font-style: italic;
 }
 
