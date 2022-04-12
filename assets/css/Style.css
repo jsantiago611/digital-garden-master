@@ -381,7 +381,8 @@ main {
 
 @media(min-width: 300px)and (max-width: 1069px) {
 	 h1 {
-		font-size: calc(28px + (72 - 28) * ( 100vw - 300px) / (1070 - 300))
+		font-size: calc(28px + (72 - 28) * ( 100vw - 300px) / (1070 - 300));
+		letter-spacing: -0.04em;
 	}
 }
 
