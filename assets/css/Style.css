@@ -263,9 +263,9 @@ html[data-theme="dark"] {
   --line-height-snug: 1.375;
 
   /* Font family */
-  --font-family-serif: 'Heldane', serif;
-  --font-family-mono: 'FavoritMono', 'SFMono-Regular', 'Menlo', monospace;
-  --font-family-sans: 'Favorit', 'Univers', 'Helvetica', '-apple-system', 'BlinkMacSystemFont', sans-serif;
+  --font-family-serif: 'untitled', serif;
+  --font-family-mono: 'pitch sans', 'SFMono-Regular', 'Menlo', monospace;
+  --font-family-sans: 'Copernicus', 'Univers', 'Helvetica', '-apple-system', 'BlinkMacSystemFont', sans-serif;
 
   --font-family-base: var(--font-family-sans);
 
@@ -365,7 +365,7 @@ main {
 	font-feature-settings: pnum;
 	font-family: var(--font-family-serif), Times, "Times New Roman", serif;
 	font-weight: 500;
-	letter-spacing: -0.015em;
+	letter-spacing: -0.05em;
 	line-height: 1;
 	margin: 36px 0 8px;
 	color: var(--c-text-strong)
