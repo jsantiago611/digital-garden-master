@@ -1,12 +1,12 @@
 ---
 title: Psalms can be turned into personal prayers
-tags: Psalms Prayer
+tags: Prayer
 status: ongoing
 ---
 
-{.:boxit}
-**Intended audience:** Christians who want to read the Psalms to enrich and inform their own prayers. [[Idea inspired by Pastor Tim Keller's books "Praying with the Psalms" & "Prayer", in addition to his study "Praying with the Psalms"::rmn]]
 
+**Intended audience:** Christians who want to read the Psalms to enrich and inform their own prayers. [[Idea inspired by Pastor Tim Keller's books "Praying with the Psalms" & "Prayer", in addition to his study "Praying with the Psalms"::rmn]]
+{:.boxit} 
 **Epistemic status:** After spending days throughout last year working through most of Tim Keller's book The Songs of Jesus", I'm convinced that any psalm can be converted to a useful and helpful prayer.  
 
 ---
