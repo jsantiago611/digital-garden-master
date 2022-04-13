@@ -18,12 +18,13 @@ There is also a roadmap which contains a full list of features that I plan on de
 - Progressive Web App (PWA) ready
 - Maximize lighthouse score
 - Add a sorting/filter mechanism for notes (see [[Swyx::https://www.swyx.io/ideas]]
+- Add a "Resonance Library"
 
 ---
 
 ## Version Changes
 
-v1.1: Hello World 🐣
+### v1.1: Hello World 🐣
 
 *Released in March 2022*
 
