@@ -318,7 +318,7 @@ html[data-theme="dark"] {
   /* Font family */
   --font-family-serif: 'untitled', 'Univers', 'Helvetica', '-apple-system', 'BlinkMacSystemFont', sans-serif;
   --font-family-mono: 'pitch sans', 'SFMono-Regular', 'Menlo', monospace;
-  --font-family-sans: 'Copernicus', serif; 
+  --font-family-sans: 'Bradford', serif; 
 
   --font-family-base: var(--font-family-sans);
 
