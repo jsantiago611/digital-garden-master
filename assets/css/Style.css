@@ -73,9 +73,17 @@ layout: Stylesheet
 
 @font-face {
    font-family: 'Bradford';
-   src: url('../fonts/BradfordLL-Light (1).otf') format('opentype');
+   src: url('../fonts/BradfordLL-Light.woff') format('woff');
    font-weight: 300;
    font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Bradford';
+   src: url('../fonts/BradfordLL-LightItalic.woff2') format('woff2');
+   font-weight: 300;
+   font-style: italic;
    font-display: swap;
 }
 
