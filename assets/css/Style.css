@@ -695,7 +695,7 @@ p a:focus {
 
 @media(min-width: 300px)and (max-width: 1499px) {
 	p, li {
-		font-size: calc(18px + (24 - 18) * ( 100vw - 300px) / (1500 - 300))
+		font-size: calc(20px + (24 - 20) * ( 100vw - 300px) / (1500 - 300))
 	}
 }
 
