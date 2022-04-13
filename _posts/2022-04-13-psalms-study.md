@@ -1,6 +1,7 @@
 ---
 title: Psalms can be turned into personal prayers
-tags: note
+tags: prayer
+categories: note
 status: ongoing
 ---
 
