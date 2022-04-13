@@ -71,11 +71,19 @@ layout: Stylesheet
    font-display: swap;
 }
 
+@font-face {
+   font-family: 'Bradford';
+   src: url('../fonts/BradfordLLWeb-Regular.woff2') format('woff2');
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+
 
 @font-face {
    font-family: 'Bradford';
    src: url('../fonts/BradfordLLWeb-Book (1).woff2') format('woff2');
-   font-weight: 400;
+   font-weight: 500;
    font-style: normal;
    font-display: swap;
 }
