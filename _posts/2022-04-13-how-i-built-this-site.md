@@ -30,5 +30,5 @@ There is also a roadmap which contains a full list of features that I plan on de
 
 - Discovered "digital gardening" (thanks [[Maggie Appleton::https://maggieappleton.com/]]!) as a way of compiling and catagorizing knowledge, and realized this was a powerful paradigm for Christians and their spiritual development. 
 - After trying several templates, settled on "Simply Jekyll", due to it's plethora of features. 
-- Added Dark Mode
-- Added Reading time to metadata
+- Added Dark Mode (thanks to [[Derek Kedziora's guide to adding dark mode to Jekyll sites::https://derekkedziora.com/blog/dark-mode-revisited]]
+- Added Reading time to metadata (thanks to [[J.H. van der Schee::https://jekyllcodex.org/without-plugin/reading-time-indicator/]]
