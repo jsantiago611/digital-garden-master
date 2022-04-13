@@ -13,7 +13,7 @@ There is also a roadmap which contains a full list of features that I plan on de
 
 - Add Webmentions (see *[[Max Bock::https://mxb.dev/blog/webmention-analytics/]]*)
 - Add a theme-switcher (See *[[Walter Teng::https://walterteng.com/garden/theme-switcher-sg/]] or [[Max Bock::https://mxb.dev/blog/color-theme-switcher/]]*) 
-- Increase utility of metadata (see [[Gwern:https://www.gwern.net/]]. I may conpile all metadata in a sentence that reads "This is a [note/prayer/summary] about [topic]. It takes x minutes to read."
+- Increase utility of metadata (see [[Gwern::https://www.gwern.net/]]. I may conpile all metadata in a sentence that reads "This is a [note/prayer/summary] about [topic]. It takes x minutes to read."
 - Fix ::before behavior. Bullets and TOC not displaying properly.
 - Progressive Web App (PWA) ready
 - Maximize lighthouse score
