@@ -1,5 +1,5 @@
 ---
-Title: The third stage of temptation is the titillation of the senses
+title: The third stage of temptation is the titillation of the senses
 categories: Reflection
 status: ongoing
 tags: temptation
