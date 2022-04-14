@@ -8,7 +8,7 @@ categories: reflection
 
 >“I had to offer sacrifices, and today I have paid my vows; so now I have come out to meet you, to seek you eagerly, and I have found you." (Proverbs 7:14-15, ESV)
 
-The first step in tempation pretty much goes like this:
+The first step in [[Temptation]] pretty much goes like this:
 
 1. man: "I'm a pretty good person that doesn't typically mingle in things like affairs. I am also married, and good husbands don't go and get affairs."
 2. also man: "here's an opportunity to have an affair. If I go through with this, I turn from a good husband to a bad husband to...maybe not a husband anymore"
