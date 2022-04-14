@@ -30,4 +30,4 @@ At a macro-level in the west, I think we've perfected this rationalization. Non-
 ### Implications of this discovery:
 
 1. **Rationalization of sin is dangerous** because it becomes difficult to discern whom I can trust. When companies mingle good social justice causes with immoral company practices, the line between good and and bad becomes a gradient. So, be wise and look out for anyone trying to reconcile sin with a "self-image of still-being-good-people." Burn the bridge. 
-2. **This data gives me an escape route.** If I can catch my rationalization "in the act" , so to speak, the temptation may be diverted and life will continue without disaster. But if not, it appears that the rationalization continues to the next stage. [[The second stage of temptation is Overpromise]].
+2. **This data gives me an escape route.** If I can catch my rationalization "in the act" , so to speak, the temptation may be diverted and life will continue without disaster. But if not, it appears that the rationalization continues to the next stage. [[The second stage of temptation is overpromise]].
