@@ -341,9 +341,9 @@ html[data-theme="dark"] {
   --line-height-snug: 1.375;
 
   /* Font family */
-  --font-family-serif: 'untitled', 'Univers', 'Helvetica', '-apple-system', 'BlinkMacSystemFont', sans-serif;
-  --font-family-mono: 'pitch sans', 'SFMono-Regular', 'Menlo', monospace;
-  --font-family-sans: 'Bradford', serif; 
+  --font-family-serif: 'Editor', serif;
+  --font-family-mono: 'GTAmericaMono', 'SFMono-Regular', 'Menlo', monospace;
+  --font-family-sans: 'Editor', serif; 
 
   --font-family-base: var(--font-family-sans);
 
@@ -442,7 +442,7 @@ main {
 	font-variant-numeric: oldstyle-nums;
 	font-feature-settings: pnum;
 	font-family: var(--font-family-serif), Times, "Times New Roman", serif;
-	font-weight: 500;
+	font-weight: bold;
 	letter-spacing: -0.05em;
 	line-height: 1;
 	margin: 36px 0 8px;
@@ -498,7 +498,7 @@ main {
  h2 {
 	font-size: 28px;
 	font-family: var(--font-family-serif), system-ui, sans-serif;
-	font-weight: 500;
+	font-weight: bold;
 	letter-spacing: -0.01em;
 	line-height: 1.2;
 	margin-top: 24px;
@@ -555,7 +555,7 @@ main {
  h3 {
 	font-size: 21px;
 	font-family: var(--font-family-serif), system-ui, sans-serif;
-	font-weight: 500;
+	font-weight: bold;
 	letter-spacing: -0.01em;
 	line-height: 1.2;
 	margin: 36px 0 5px;
@@ -583,7 +583,7 @@ main {
  h4 {
 	font-size: 17px;
 	font-family: var(--font-family-serif), system-ui, sans-serif;
-	font-weight: 400;
+	font-weight: bold;
 	letter-spacing: .1em;
 	line-height: 1.2;
 	text-transform: uppercase;
@@ -1356,7 +1356,7 @@ summary {
     text-decoration: none;
     font-weight: var(--font-weight-semibold);
     font-size: 1.1rem;
-    font-family: var(--font-family-serif);
+    font-family: var(--font-family-mono);
 }
 
 
@@ -1486,7 +1486,7 @@ summary {
     margin-left: auto;
     font-weight: 400;
     font-size: var(--font-size-small);
-    font-family: var(--font-family-serif);
+    font-family: var(--font-family-mono);
     color: var(--c-text-muted);
 }
 
@@ -1541,14 +1541,14 @@ summary {
     top: 58px;
     right: 20px;
     align-items: center;
-    background-color: var(--c-btn-bg);
+    background-color: var(--c-text); 
     border: 1px solid var(--c-btn-alt-bg);
     display: flex;
     justify-content: center;
     padding: 8px;
     z-index: 90;
-    font-family: var(--font-family-serif);
-    color: var(--c-text);
+    font-family: var(--font-family-mono);
+    color: var(--c-btn-bg);
     cursor: pointer;
     font-weight: 400;
 }
