@@ -1,5 +1,8 @@
 ---
 Title: Temptation
+categories: note
+tag: temptation
+status: ongoing
 ---
 
 ## What is temptation? 
