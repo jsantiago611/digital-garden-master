@@ -1,5 +1,5 @@
 ---
-title: The first stage of tempatation is rationalization
+title: The first stage of temptation is rationalization
 tags: temptation
 categories: reflection
 ---
