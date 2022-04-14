@@ -11,9 +11,9 @@ There is also a roadmap which contains a full list of features that I plan on de
 
 ## Roadmap 
 
-- Add Webmentions (see *[[Max Bock::https://mxb.dev/blog/webmention-analytics/]]*)
-- Add a theme-switcher (See *[[Walter Teng::https://walterteng.com/garden/theme-switcher-sg/]] or [[Max Bock::https://mxb.dev/blog/color-theme-switcher/]]*) 
-- Increase utility of metadata (see [[Gwern::https://www.gwern.net/]]. I may conpile all metadata in a sentence that reads "This is a [note/prayer/summary] about [topic]. It takes x minutes to read."
+- Add Webmentions (see [[Max Bock::https://mxb.dev/blog/webmention-analytics/]])
+- Add a theme-switcher (See [[Walter Teng::https://walterteng.com/garden/theme-switcher-sg/]] or [[Max Bock::https://mxb.dev/blog/color-theme-switcher/]]*) 
+- Increase utility of metadata (see [[Gwern's Digital Garden::https://www.gwern.net/]]. I may conpile all metadata in a sentence that reads "This is a [note/prayer/summary] about [topic]. It takes x minutes to read."
 - Fix ::before behavior. Bullets and TOC not displaying properly.
 - Progressive Web App (PWA) ready
 - Maximize lighthouse score
@@ -31,4 +31,4 @@ There is also a roadmap which contains a full list of features that I plan on de
 - Discovered "digital gardening" (thanks [[Maggie Appleton::https://maggieappleton.com/]]!) as a way of compiling and catagorizing knowledge, and realized this was a powerful paradigm for Christians and their spiritual development. 
 - After trying several templates, settled on "Simply Jekyll", due to it's plethora of features. 
 - Added Dark Mode (thanks to [[Derek Kedziora's guide to adding dark mode to Jekyll sites::https://derekkedziora.com/blog/dark-mode-revisited]]
-- Added Reading time to metadata (thanks to [[J.H. van der Schee::https://jekyllcodex.org/without-plugin/reading-time-indicator/]]
+- Added Reading time to metadata (thanks to [[Carlos Becker::https://carlosbecker.com/posts/jekyll-reading-time-without-plugins/]])
