@@ -104,6 +104,31 @@ layout: Stylesheet
    font-display: swap;
 }
 
+@font-face {
+   font-family: 'Editor';
+   src: url('../fonts/Editor-Regular.woff2') format('woff2');
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Editor';
+   src: url('../fonts/editor-bold-webfont.woff2') format('woff2');
+   font-weight: 700;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'GTAmericaMono';
+   src: url('../fonts/GTAmericaMono-Light.woff2') format('woff2');
+   font-weight: 300;
+   font-style: normal;
+   font-display: swap;
+}
+
+
 
 /* 
 
