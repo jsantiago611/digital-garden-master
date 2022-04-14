@@ -1,5 +1,5 @@
 ---
-title: The Second Stage of Temptation is Overpromise
+title: The second stage of temptation is overpromise
 categories: Reflection
 tags: temptation
 status: ongoing
