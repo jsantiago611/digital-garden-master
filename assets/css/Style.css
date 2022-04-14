@@ -759,7 +759,7 @@ cite a {
 
  ul li::before {
 	position: absolute;
-	top: .5em;
+	top: .65em;
 	left: 0;
 	height: 6px;
 	width: 6px;
