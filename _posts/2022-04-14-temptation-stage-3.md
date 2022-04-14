@@ -11,17 +11,12 @@ It's interesting how the arousal of the sense comes last. When I often think of 
 
 ### I think this is the overall process of [[Temptation]] as I see it right now: 
 
-See/hear/think/smell/feel something that triggers an invitation to sin
-↓
-Reconcile the sin with my image of being a "good person"
-↓
-Believe the overpromise that doing this will make me feel better
-↓
-See/hear/think/smell/feel something that makes the promise real
-↓
-Sin
-↓
-Experience the actual consequences of sin, contra the overpromise that was believed
+1. See/hear/think/smell/feel something that triggers an invitation to sin
+2. Reconcile the sin with my image of being a "good person"
+3. Believe the overpromise that doing this will make me feel better
+4. See/hear/think/smell/feel something that makes the promise real
+5. Sin
+6. Experience the actual consequences of sin, contra the overpromise that was believed
 
 ### Reflection
 This third stage of temptation has played out very tangibly in my life and is easilest to see, but the earlier stages are not as evident. By the time I see this stage, the part I can "feel", I've noticed that both myself and others are already so deep in the temptation that it's too hard to pull out.
