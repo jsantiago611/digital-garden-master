@@ -7,7 +7,7 @@ status: ongoing
 
 [[Epistemic Status: I started thinking about this yesterday, but need to flesh out these stages and include better examples as they come up. My response below feels generic.::wrap]]
 
-After the mental shift ([[the First stage of temptation is rationalization]]), we believe an overpromise. 
+After the mental shift ([[the first stage of temptation is rationalization]]), we believe an overpromise. 
 
 Keller says that *"the woman says, literally, 'I looked for you only' (verse 15), meaning 'you are the one I've been looking for all my life."* And so a fleeting sexual encounter is framed as a cosmic life-fulfilling event that promises to leave this man better than he was before. 
 
