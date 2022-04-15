@@ -1592,16 +1592,13 @@ summary {
     flex-basis:auto;
       display: flex;
       flex-direction: column;
-      border: 2px solid var(--c-btn-alt-bg);
+      border: 1px solid var(--c-border);
       vertical-align: middle;
       float: right;
       margin-top: 0px;
       margin-left: auto;
       font-family: var(--font-family-mono);
       padding: 10px 20px;
-      border-right: 1px solid var(--c-border);
-      border-bottom: 1px solid var(--c-border);
-      border-top: 1px solid var(--c-border);
 }
 
 #theme-toggle:hover {
