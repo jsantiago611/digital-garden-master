@@ -37,7 +37,7 @@
             <a href="{{item.url}}" style="text-decoration: none; color: #555555;">
             {%- if item.status == "Ongoing" or item.status == "ongoing" -%}
             <ul style="padding-left: 20px; margin-top: 20px;" class="tags">
-            <li style="padding: 0 5px; border-radius: 10px;" class="status"><b>Status: </b>{{item.status | capitalize }}</li>
+            <li style="padding: 5px 5px; border-radius: 10px;" class="status"><b>Status  </b>&nbsp{{item.status | capitalize }}</li>
             </ul>
             <p style="margin-top: 0px;" class="feed-title">{{ item.title }}</p>
             {%- else -%}

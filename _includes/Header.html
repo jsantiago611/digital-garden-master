@@ -175,20 +175,20 @@
     {%- endif -%}
     <div class="main-site-subheader menu disable-select">
         <a class="menu-item" href="/about">
-                
+
                 <p class="menu-item-text">About</p>
         </a>
         <a class="menu-item" href="/tags">
-                
+
                 <p class="menu-item-text">Tags</p>
         </a>
         <a class="menu-item" href="/feed.xml">
-                
+
                 <p class="menu-item-text">RSS</p>
         </a>
-        
+        <button id="theme-toggle" onclick="modeSwitcher()"></button>
     </div>
-    <button id="theme-toggle" onclick="modeSwitcher()"></button>
+
     {%- if site.preferences.search.enabled -%}
     <div class="searchbar search-container">
         {%- if site.preferences.search.shortcut_hint.enabled -%}
@@ -210,6 +210,6 @@
     <script src="/scripts/theme-switcher.js"></script>
     {%- endif -%}
     {%- if page.permalink != "/" -%}
-    
+
     {%- endif -%}
 </header>

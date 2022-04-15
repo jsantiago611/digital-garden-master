@@ -5,9 +5,9 @@ permalink: /about/
 content-type: eg
 ---
 
-## {% posts_word_count total %} words about Christianity as of {{ site.time | date: '%B %d, %Y' }}
 
-This is the website (or, Digital Garden[[A garden is something inbetween a personal blog and a wiki. It's a collection of evolving notes, essays, and ideas that aren't strictly organised by their publication date. They're inherently *exploratory* – posts are linked through contextual associations. They aren't refined or complete - posts can be published as half-finished thoughts that will grow and evolve over time. They're less rigid, less performative, and less perfect than the personal "blogs" we're used to encountering on the web.::rsn]]) of Jonathan Santiago. I write mainly about spirituality, theology, and spiritual formation. This space is meant to be an exploratory space where I [[learn in public::https://www.swyx.io/learn-in-public/]] about Christianity and the Bible. 
+
+This is the website (or, Digital Garden[[A garden is something inbetween a personal blog and a wiki. It's a collection of evolving notes, essays, and ideas that aren't strictly organised by their publication date. They're inherently *exploratory* – posts are linked through contextual associations. They aren't refined or complete - posts can be published as half-finished thoughts that will grow and evolve over time. They're less rigid, less performative, and less perfect than the personal "blogs" we're used to encountering on the web.::rsn]]) of Jonathan Santiago. I write mainly about spirituality, theology, and spiritual formation. This space is meant to be an exploratory space where I [[learn in public::https://www.swyx.io/learn-in-public/]] about Christianity and the Bible.
 
 ## About the website
 
@@ -51,5 +51,3 @@ Other Details:
 - This website is statically generated using Jekyll from a set of Markdown files.
   - The Jekyll theme can be found on my Github Page, It is called "Simply-Jekyll"
 - Except lunrjs and katex, there are no third party libraries. Discord is an opt-in, I don't use on my [[site::https://rgvr.me]]. I strongly believe in user privacy.
-
-
