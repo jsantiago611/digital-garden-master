@@ -1469,7 +1469,7 @@ summary {
 
 .main-site-subheader {
     border-bottom: 1px solid var(--primary-border-color);
-    margin-left: 25px;
+    /*margin-left: 25px;*/
 
 }
 
@@ -1478,7 +1478,7 @@ summary {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 90%;
+    width: 100%;
     float: left;
     border-top: 1px solid var(--c-border);
     border-bottom: 1px solid var(--c-border);
@@ -1997,7 +1997,7 @@ a.button-block {
     position: relative;
     padding-left: 50px;
     box-sizing: border-box;
-    width: 90%;
+    width: 100%;
     height: 40px;
     border-left: 1px solid var(--c-border);
     border-right: 1px solid var(--c-border);
@@ -2009,7 +2009,7 @@ a.button-block {
     background-color: var(--c-card-bg-light);
     /*margin-top: 1em;*/
     padding: 0 1.25em;
-    margin-left: 25px;
+    /*margin-left: 25px;*/
 }
 
 ::placeholder {
