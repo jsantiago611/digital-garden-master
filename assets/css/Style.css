@@ -1469,7 +1469,7 @@ summary {
 
 .main-site-subheader {
     border-bottom: 1px solid var(--primary-border-color);
-    margin-left: 28px;
+    margin-left: 25px;
 
 }
 
@@ -2009,7 +2009,7 @@ a.button-block {
     background-color: var(--c-card-bg-light);
     /*margin-top: 1em;*/
     padding: 0 1.25em;
-    margin-left: 28px;
+    margin-left: 25px;
 }
 
 ::placeholder {
