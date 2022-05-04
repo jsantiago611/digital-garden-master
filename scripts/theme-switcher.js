@@ -2,12 +2,6 @@
 let systemInitiatedDark = window.matchMedia("(prefers-color-scheme: dark)");
 let theme = sessionStorage.getItem('theme');
 
-if (systemInitiatedDark.matches) {
-	document.getElementById("theme-toggle").innerHTML = "🌞";
-} else {
-	document.getElementById("theme-toggle").innerHTML = "🌛";
-}
-
 function prefersColorTest(systemInitiatedDark) {
   if (systemInitiatedDark.matches) {
   	document.documentElement.setAttribute('data-theme', 'dark');
@@ -19,6 +13,13 @@ function prefersColorTest(systemInitiatedDark) {
     sessionStorage.setItem('theme', '');
   }
 }
+
+if (systemInitiatedDark.matches) {
+	document.getElementById("theme-toggle").innerHTML = "🌞";
+} else {
+	document.getElementById("theme-toggle").innerHTML = "🌛";
+}
+
 systemInitiatedDark.addListener(prefersColorTest);
 
 function modeSwitcher() {
