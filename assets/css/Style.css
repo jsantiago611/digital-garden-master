@@ -535,12 +535,13 @@ main {
 	font-feature-settings: pnum;
 	font-family: var(--font-family-sans);
 	font-weight: bold;
-	letter-spacing: -0.05em;
 	line-height: 1;
 	margin: 36px 0 8px;
 	color: var(--c-text-strong);
   	border-bottom: 1px solid var(--c-border) !important;
   	padding-bottom: 1.3rem;
+	letter-spacing: -0.04em;
+ 	font-variant-ligatures: discretionary-ligatures;
 }
 
 @media(min-width: 300px)and (max-width: 1069px) {
@@ -1657,18 +1658,21 @@ summary {
     cursor: pointer;
     font-weight: 400; */
 
-    background-color: var(--c-text);
-    color: var(--c-topper-split-bg);
-    flex-basis:auto;
-      display: flex;
-      flex-direction: column;
-      border: 1px solid var(--c-border);
-      vertical-align: middle;
-      float: right;
-      margin-top: 0px;
-      margin-left: auto;
-      font-family: var(--font-family-mono);
-      padding: 10px 20px;
+	background-color: var(--c-text);
+	color: var(--c-topper-split-bg);
+	flex-basis:auto;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid var(--c-border);
+	vertical-align: middle;
+	float: right;
+	margin-top: 0px;
+	margin-left: auto;
+	font-family: var(--font-family-serif);
+	padding: 10px 20px;
+	font-size: 2rem;
+	border-radius: 100px;
+	cursor: pointer;
 }
 
 #theme-toggle:hover {
