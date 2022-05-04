@@ -3,16 +3,16 @@
 
 <ul class="tags">
     {%- if page.status != nil and page.status != empty -%}
-    <li><p class="readtime">{%- include read_time.html -%}</p></li>
-    <li><a href="javascript:void(0)" class="tag"><b>Status:</b> <i>{{page.status | capitalize}}</i></a></li>
+    <div><p class="readtime">{%- include read_time.html -%}</p></div>
+    <div><a href="javascript:void(0)" class="tag"><b>Status:</b> <i>{{page.status | capitalize}}</i></a></div>
     {%- endif -%}
-    <li><a href="/dates/#{{ page.date | date: '%d-%B-%Y' }}" class="tag">Last updated on {{ page.date | date: '%B-%d-%Y' }}</a></li>
+    <div><a href="/dates/#{{ page.date | date: '%d-%B-%Y' }}" class="tag">Last updated on {{ page.date | date: '%B-%d-%Y' }}</a></div>
     <!-- Loop through page categories and print them in tags -->
     {%- for tag in page.tags -%}
         {%- if tag == 'Favorite' -%}
-        <li><a href="/favorites/" class="tag">#{{ tag }}</a></li>
+        <div><a href="/favorites/" class="tag">#{{ tag }}</a></div>
         {%- else -%}
-        <li><a href="/tags/#{{ tag }}" class="tag">This is a {{page.categories | capitalize | join: ', '}} about {{ tag }}</a></li>
+        <div><a href="/tags/#{{ tag }}" class="tag">This is a {{page.categories | capitalize | join: ', '}} about {{ tag }}</a></div>
         {%- endif -%}
     {%- endfor -%}
 </ul>
