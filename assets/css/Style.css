@@ -525,7 +525,7 @@ main {
 
 @media(max-width: 500px) {
 	.menu {
-		padding: 15px 0;
+	padding: 15px 0px 15px 0px;
 	}
 }
 
