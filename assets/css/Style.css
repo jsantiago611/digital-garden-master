@@ -2095,18 +2095,17 @@ a.button-block {
     font-size: 1rem;
     font-family:  var(--font-family-serif) !important;
 }
-.search-icon {
+
+  .search-icon {
     position: absolute;
-    /* vertical-align: middle; */
-    /* margin-top: -2.55em; */
-    /* margin-right: 0; */
     color: var(--c-accent) !important;
-    /* padding-top: 12.5px; */
     z-index: 1;
-    /* padding-left: 14rem; */
-    top: 114px;
-    right: 0px;
+    top: -32px;
+    right: 9px;
+    bottom: 0;
+    margin: auto;
 }
+
 
 .search-shortcut {
     position: absolute;
