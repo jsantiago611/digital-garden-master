@@ -1676,6 +1676,10 @@ summary {
     border-radius: 50%;
     align-items: stretch;
     padding-top: 0.35rem;
+    position: fixed;
+    bottom: 30px;
+    right: 15px;
+    border: 2px solid var(--c-text);
 }
 
 .button,
