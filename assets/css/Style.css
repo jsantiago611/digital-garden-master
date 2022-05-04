@@ -1450,7 +1450,7 @@ summary {
 
 .site-heading-ltr a {
     text-decoration: none;
-    font-weight: var(--font-weight-semibold);
+    font-weight: normal;
     font-size: 1.7rem;
     font-family: "gt-condensed";
 }
