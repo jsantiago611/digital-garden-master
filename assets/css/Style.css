@@ -2098,9 +2098,9 @@ a.button-block {
 .search-icon {
     position: absolute;
     vertical-align: middle;
-    margin-top: -0.2em;
-    margin-left: -2em;
-    stroke: var(--c-accent) !important;
+    margin-top: -2.55em;
+    margin-left: 14.2em;
+    color: var(--c-accent) !important;
     padding-top: 12.5px;
     z-index: 1;
 }
