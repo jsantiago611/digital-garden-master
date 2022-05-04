@@ -28,7 +28,7 @@ url: "https://jonathansantiago.netlify.app/" # the base hostname & protocol for 
 # your social media links etc
 #######################################################################
 
-heading: Spiritual Growth Lab
+heading: Discipleship City
 subheading: # subheading won't work without a tagline,
           # tagline is mandatory if you want the
           # suheading to appear. The reason is
@@ -48,7 +48,7 @@ tagline: # subheading won't work without a tagline,
   name:
 copyright:
   year: 2022
-  msg: Jonathan S # This is a mandatory attribute for copyright to be displayed
+  msg: Jonathan Santiago # This is a mandatory attribute for copyright to be displayed
 
 user:
   display: false # setting it to false will remove the header image and bio
