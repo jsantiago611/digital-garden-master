@@ -538,7 +538,7 @@ main {
 	line-height: 1;
 	margin: 36px 0 8px;
 	color: var(--c-text-strong);
-  	border-bottom: 1px solid var(--c-border) !important;
+  	/* border-bottom: 1px solid var(--c-border) !important;*/
   	padding-bottom: 1.3rem;
 	letter-spacing: -0.04em;
  	font-variant-ligatures: discretionary-ligatures;
@@ -1447,7 +1447,7 @@ summary {
     text-decoration: none;
     font-weight: var(--font-weight-semibold);
     font-size: 1.1rem;
-    font-family: var(--font-family-mono);
+    font-family: var(--font-family-serif);
 }
 
 
@@ -1553,7 +1553,7 @@ summary {
     float: left;
     border-top: 1px solid var(--c-border);
     border-bottom: 1px solid var(--c-border);
-    padding: 5px;
+    padding: 15px;
     margin-bottom: 1.3rem;
 }
 
