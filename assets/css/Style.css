@@ -523,6 +523,11 @@ main {
     padding-right: 10px;
 }
 
+@media(max-width: 500px) {
+	.menu {
+		padding: 15px 0;
+	}
+}
 
 /* Phrasing Style: H1, H2, H3, H4, H5, H6, P, A, UL, LI */
 
