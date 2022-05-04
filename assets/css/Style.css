@@ -2342,6 +2342,7 @@ a.button-block {
     background-color: var(--c-topper-split-bg);
     margin: 2rem 0;
     padding-bottom: 1rem;
+	border-radius: 1rem;
 }
 
 .feed-title-excerpt-block:hover {
@@ -2361,7 +2362,7 @@ a.button-block {
     color: var(--c-text-strong);
     margin-left: 20px;
     margin-right: 50px;
-    font-family:  var(--font-family-serif);
+    font-family:  var(--font-family-sans);
     font-weight: var(--font-weight-bold);
     letter-spacing: var(--letter-spacing-tight);
     font-size: 25px;
@@ -2387,8 +2388,10 @@ a.button-block {
     margin-top: -12px;
     margin-left: 20px !important;
     margin-right: 30px;
-    font-family:  var(--font-family-sans);
+    font-family:  var(--font-family-serif);
+    font-style: italic;
     font-size: 15px;
+    overflow: hidden;
 }
 
 .tags {
@@ -2487,7 +2490,7 @@ position: absolute;
     text-decoration: none;
     display: inline-block;
     padding: 0px 10px !important;
-    border-radius: 0px !important;
+    border-radius: 100px !important;
     height: auto;
     vertical-align: middle;
     font-family: var(--font-family-mono);
