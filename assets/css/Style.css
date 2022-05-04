@@ -1680,6 +1680,7 @@ summary {
     bottom: 30px;
     right: 15px;
     border: 2px solid var(--c-text);
+    z-index:1000;
 }
 
 .button,
