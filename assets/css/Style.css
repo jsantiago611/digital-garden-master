@@ -534,7 +534,7 @@ main {
 
 
  h1 {
-	font-size: 28px;
+	font-size: 60px;
 	font-variant-ligatures: common-ligatures;
 	font-variant-numeric: oldstyle-nums;
 	font-feature-settings: pnum;
@@ -551,14 +551,14 @@ main {
 
 @media(min-width: 300px)and (max-width: 1069px) {
 	 h1 {
-	font-size: calc(28px + (72 - 28) * ( 100vw - 300px) / (1070 - 300));
+	font-size: calc(60px + (80 - 60) * ( 100vw - 300px) / (1070 - 300));
 	letter-spacing: -0.04em;
 	}
 }
 
 @media(min-width: 1070px) {
 	 h1 {
-		font-size: 72px
+		font-size: 80px
 	}
 }
 
@@ -1553,7 +1553,7 @@ summary {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 100%;
     float: left;
     border-top: 1px solid var(--c-border);
