@@ -2097,12 +2097,15 @@ a.button-block {
 }
 .search-icon {
     position: absolute;
-    vertical-align: middle;
-    margin-top: -2.55em;
-    margin-left: 14.2em;
+    /* vertical-align: middle; */
+    /* margin-top: -2.55em; */
+    /* margin-right: 0; */
     color: var(--c-accent) !important;
-    padding-top: 12.5px;
+    /* padding-top: 12.5px; */
     z-index: 1;
+    /* padding-left: 14rem; */
+    top: 114px;
+    right: 0px;
 }
 
 .search-shortcut {
