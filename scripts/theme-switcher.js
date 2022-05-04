@@ -2,6 +2,12 @@
 let systemInitiatedDark = window.matchMedia("(prefers-color-scheme: dark)");
 let theme = sessionStorage.getItem('theme');
 
+if (systemInitiatedDark.matches) {
+	document.getElementById("theme-toggle").innerHTML = "🌞";
+} else {
+	document.getElementById("theme-toggle").innerHTML = "🌛";
+}
+
 if (theme === "dark") {
 	document.documentElement.setAttribute('data-theme', 'dark');
 	sessionStorage.setItem('theme', 'dark');
@@ -9,12 +15,6 @@ if (theme === "dark") {
 } else if (theme === "light") {
 	document.documentElement.setAttribute('data-theme', 'light');
 	sessionStorage.setItem('theme', 'light');
-	document.getElementById("theme-toggle").innerHTML = "🌛";
-}
-
-if (systemInitiatedDark.matches) {
-	document.getElementById("theme-toggle").innerHTML = "🌞";
-} else {
 	document.getElementById("theme-toggle").innerHTML = "🌛";
 }
 
