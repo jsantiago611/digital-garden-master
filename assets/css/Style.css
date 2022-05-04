@@ -1451,8 +1451,8 @@ summary {
 .site-heading-ltr a {
     text-decoration: none;
     font-weight: var(--font-weight-semibold);
-    font-size: 1.1rem;
-    font-family: var(--font-family-serif);
+    font-size: 1.7rem;
+    font-family: "gt-condensed";
 }
 
 
