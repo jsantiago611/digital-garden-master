@@ -1658,25 +1658,25 @@ summary {
     cursor: pointer;
     font-weight: 400; */
 
-	background-color: var(--c-text);
-	color: var(--c-topper-split-bg);
-	flex-basis:auto;
-	display: flex;
-	flex-direction: column;
-	border: 1px solid var(--c-border);
-	vertical-align: middle;
-	float: right;
-	margin-top: 0px;
-	margin-left: auto;
-	font-family: var(--font-family-serif);
-	padding: 10px 20px;
-	font-size: 2rem;
-	border-radius: 100px;
-	cursor: pointer;
+    background-color: var(--c-text);
+    color: var(--c-topper-split-bg);
+    flex-basis: auto;
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+    float: right;
+    margin-top: 0px;
+    margin-left: auto;
+    font-family: var(--font-family-serif);
+    font-size: 2rem;
+    border-radius: 100px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    align-items: stretch;
+    padding-top: 0.35rem;
 }
-
-#theme-toggle:hover {
-    font-weight: 500;
 }
 
 .button,
