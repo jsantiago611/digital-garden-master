@@ -7,6 +7,78 @@ layout: Stylesheet
 /* Containers: Body, Container, Box, Main, Header, Content */
 
 @font-face {
+  font-family: 'GT-Alpina-VAR';
+  src: url('../fonts/GT-Alpina-VAR.woff2') format('woff2');
+  display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GT-Condensed';
+  src: url('../fonts/GT-Alpina-Condensed-Thin.woff') format('woff');
+  display: swap;
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GT-std';
+  src: url('../fonts/GT-Alpina-Standard-Light.woff') format('woff');
+  display: swap;
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GT-std';
+  src: url('../fonts/GT-Alpina-Standard-Light-Italic.woff2') format('woff2');
+  display: swap;
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'GT-std';
+  src: url('../fonts/GT-Alpina-Standard-Thin.woff') format('woff');
+  display: swap;
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roobert';
+  src: url('../fonts/Roobert-Light.otf') format('opentype');
+  display: swap;
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roobert';
+  src: url('../fonts/Roobert-Regular.otf') format('opentype');
+  display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roobert';
+  src: url('../fonts/Roobert-RegularItalic.otf') format('opentype');
+  display: swap;
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Roobert';
+  src: url('../fonts/Roobert-SemiBold.otf') format('opentype');
+  display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
    font-family: 'pitch sans';
    src: url('../fonts/pitch-sans-regular.woff2') format('woff2');
    font-weight: 400;
@@ -357,11 +429,15 @@ html[data-theme="dark"] {
   --line-height-snug: 1.375;
 
   /* Font family */
-  --font-family-serif: 'Editor', serif;
-  --font-family-mono: 'GTAmericaMono', 'SFMono-Regular', 'Menlo', monospace;
-  --font-family-sans: 'Editor', serif;
+  --font-family-serif: "GT-std", Iowan Old Style, Apple Garamond, Baskerville,
+    Times New Roman, Droid Serif, Times, Source Serif Pro, serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  --font-family-mono: "Roobert", 'SFMono-Regular', 'Menlo', monospace;
+  --font-family-sans: "Roobert", -apple-system, BlinkMacSystemFont,
+    avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto,
+    noto, arial, sans-serif;
 
-  --font-family-base: var(--font-family-sans);
+  --font-family-base: var(--font-family-serif);
 
   /* Letter spacing */
     --letter-spacing-tight: -.015em;
@@ -457,20 +533,20 @@ main {
 	font-variant-ligatures: common-ligatures;
 	font-variant-numeric: oldstyle-nums;
 	font-feature-settings: pnum;
-	font-family: var(--font-family-serif), Times, "Times New Roman", serif;
+	font-family: var(--font-family-sans);
 	font-weight: bold;
 	letter-spacing: -0.05em;
 	line-height: 1;
 	margin: 36px 0 8px;
 	color: var(--c-text-strong);
-  border-bottom: 1px solid var(--c-border) !important;
-  padding-bottom: 1.3rem;
+  	border-bottom: 1px solid var(--c-border) !important;
+  	padding-bottom: 1.3rem;
 }
 
 @media(min-width: 300px)and (max-width: 1069px) {
 	 h1 {
-		font-size: calc(28px + (72 - 28) * ( 100vw - 300px) / (1070 - 300));
-		letter-spacing: -0.04em;
+	font-size: calc(28px + (72 - 28) * ( 100vw - 300px) / (1070 - 300));
+	letter-spacing: -0.04em;
 	}
 }
 
@@ -515,7 +591,6 @@ main {
 
  h2 {
 	font-size: 28px;
-	font-family: var(--font-family-serif), system-ui, sans-serif;
 	font-weight: bold;
 	letter-spacing: -0.01em;
 	line-height: 1.2;
@@ -572,7 +647,6 @@ main {
 
  h3 {
 	font-size: 21px;
-	font-family: var(--font-family-serif), system-ui, sans-serif;
 	font-weight: bold;
 	letter-spacing: -0.01em;
 	line-height: 1.2;
@@ -600,7 +674,6 @@ main {
 
  h4 {
 	font-size: 17px;
-	font-family: var(--font-family-serif), system-ui, sans-serif;
 	font-weight: bold;
 	letter-spacing: .1em;
 	line-height: 1.2;
@@ -634,7 +707,6 @@ main {
 
  h5 {
 	font-size: 17px;
-	font-family: var(--font-family-serif);
 	font-size: 17px;
 	line-height: 1.4;
 	font-weight: 300;
@@ -662,7 +734,6 @@ main {
 
  h6 {
 	font-size: 17px;
-	font-family: var(--font-family-serif);
 	font-size: 17px;
 	line-height: 1.4;
 	font-weight: 300;
@@ -692,14 +763,13 @@ main {
 
 a, p, ul, li, ol, table, span, blockquote {
     color: var(--c-text);
-    font-family:   var(--secondary-font-family);
     font-size: inherit;
     line-height: 1.5em;
 }
 
 p, li {
 	font-size: 18px;
-	font-family: var(--font-family-sans);
+	font-family: var(--font-family-serif);
 	font-size: 18px;
 	line-height: 1.4;
 	font-weight: 300;
@@ -864,13 +934,13 @@ cite a {
 
  ol>li::before {
 	position: absolute;
-    top: 0em;
-    left: 0;
-    font-family: var(--font-family-serif),system-ui,sans-serif;
-    font-size: 1.4;
-    font-weight: 300;
-    content: counter(counter);
-    counter-increment: counter;
+	top: 0em;
+	left: 0;
+	font-family: var(--font-family-serif);
+	font-size: 1.4;
+	font-weight: 300;
+	content: counter(counter);
+	counter-increment: counter;
 }
 
  ol li::before {
@@ -935,7 +1005,7 @@ cite a {
 }
 
  blockquote cite {
-	font-family: var(--font-family-sans), system-ui, sans-serif;
+	font-family: var(--font-family-serif);
 	font-size: 16px;
 	line-height: 1.4;
 	font-weight: 400;
@@ -981,7 +1051,7 @@ cite a {
 }
 
  code {
-	font-family: Consolas, Menlo, Monaco, "Courier New", Courier, monospace;
+	font-family: var(--font-family-mono);
 	font-size: 15px;
 	line-height: 1.4;
 	font-weight: 400;
