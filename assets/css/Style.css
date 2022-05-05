@@ -547,6 +547,8 @@ main {
   	padding-bottom: 1.3rem;
 	letter-spacing: -0.04em;
  	font-variant-ligatures: discretionary-ligatures;
+	 border-bottom: 1px solid var(--c-border);
+}
 }
 
 @media(min-width: 300px)and (max-width: 1069px) {
@@ -2343,7 +2345,7 @@ a.button-block {
     /*background-color: var(--c-gradient-fade);*/
     margin: 2rem 0;
     padding-bottom: 1rem;
-	border-radius: 1rem;
+    /*border-radius: 1rem;*/
 }
 
 .feed-title-excerpt-block:hover {
@@ -2402,11 +2404,11 @@ a.button-block {
     position: relative;*/
     overflow: hidden;
     padding: 10px;
-    margin-top:2rem;
+    margin-top:0px;
     margin-bottom: 9px;
     display: block;
 
-    @media(min-width: 600px) {
+    /*@media(min-width: 600px) {
     	.tags{
     		margin-top: 24px
     	}
@@ -2417,6 +2419,7 @@ a.button-block {
     		margin-top: 24px
     	}
     }
+	*/
     /*background-color: var(--c-card-bg-light);
     padding: 10px;
     border: 1px solid car(--c-card-border-light);
