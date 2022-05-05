@@ -536,7 +536,7 @@ main {
 
 
  h1 {
-	font-size: 60px;
+	font-size: 40px;
 	font-variant-ligatures: common-ligatures;
 	font-variant-numeric: oldstyle-nums;
 	font-feature-settings: pnum;
@@ -554,7 +554,7 @@ main {
 
 @media(min-width: 300px)and (max-width: 1069px) {
 	 h1 {
-	font-size: calc(60px + (80 - 60) * ( 100vw - 300px) / (1070 - 300));
+	font-size: calc(40px + (80 - 40) * ( 100vw - 300px) / (1070 - 300));
 	letter-spacing: -0.04em;
 	}
 }
