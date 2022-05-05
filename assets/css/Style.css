@@ -2339,9 +2339,8 @@ a.button-block {
 .feed-title-excerpt-block {
     width: 100%;
     cursor: pointer;
-    border: 1px solid var(--c-border);
-
-    background-color: var(--c-topper-split-bg);
+    border-bottom: 1px solid var(--c-card-border-light);
+    /*background-color: var(--c-gradient-fade);*/
     margin: 2rem 0;
     padding-bottom: 1rem;
 	border-radius: 1rem;
@@ -2369,7 +2368,7 @@ a.button-block {
     letter-spacing: var(--letter-spacing-tight);
     font-size: 25px;
     line-height: 1;
-    border-bottom: 1px solid var(--c-card-text);
+    /*border-bottom: 1px solid var(--c-card-text);*/
     padding-bottom: 1rem;
 
     @media(min-width: 300px)and (max-width:1499px) {
