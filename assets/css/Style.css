@@ -2533,6 +2533,31 @@ position: absolute;
     margin: 0;
 }
 
+/* meta data styles from grist*/
+.article-meta__items {
+    list-style-type: none;
+    margin-top: 0;
+    padding-left: 0;
+    border-top: 1px dotted #3c3830;
+    width: 100%;
+}
+
+.article-meta__item {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    -webkit-box-align: center;
+    /*-ms-flex-align: center;*/
+    align-items: center;
+    border-bottom: 1px solid rgba(60,56,48,.1);
+    /*display: -webkit-box;
+    display: -ms-flexbox;*/
+    display: flex;
+    -webkit-box-pack: justify;
+    /*-ms-flex-pack: justify;*/
+    justify-content: space-between;
+}
+
+
 .content {
   line-height: 20px;
   margin-top: 5rem;
