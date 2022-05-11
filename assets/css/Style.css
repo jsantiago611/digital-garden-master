@@ -17,6 +17,14 @@ layout: Stylesheet
 
 @font-face {
   font-family: 'Signifier';
+  src: url('../fonts/soehne-web-buch.woff2') format('woff2');
+  display: swap;
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Signifier';
   src: url('../fonts/signifier-web-regular-italic.woff2') format('woff2');
   display: swap;
   font-weight: bold;
