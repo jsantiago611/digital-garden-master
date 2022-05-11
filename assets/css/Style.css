@@ -1734,7 +1734,7 @@ summary {
     bottom: 10px;
     border-radius: 180px;
     cursor: pointer;
-    box-shadow: -10px 10px 20px 0 rgb(0 0 0 / 30%);
+    box-shadow: -10px 10px 20px 0 var(--c-border-light);
     z-index: 75;
     transform: translateY(100px);
     transition: transform .5s ease 0s,visibility 0s linear .5s;
