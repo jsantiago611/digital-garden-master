@@ -1714,7 +1714,6 @@ summary {
     bottom: 30px;
     right: 15px;
     border: 2px solid var(--c-text);*/
-    z-index:1000;
 	font-size: 20px;
     line-height: .91;
     text-align: center;
@@ -1727,11 +1726,18 @@ summary {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
-    right: 0;
-    top: 0;
     background-color: var(--c-text);
     color: var(--c-topper-split-bg);
+    border-radius: 180px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 180px;
+    cursor: pointer;
+    box-shadow: -10px 10px 20px 0 rgb(0 0 0 / 30%);
+    z-index: 75;
+    transform: translateY(100px);
+    transition: transform .5s ease 0s,visibility 0s linear .5s;
 }
 
 .button,
