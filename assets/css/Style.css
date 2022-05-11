@@ -7,6 +7,47 @@ layout: Stylesheet
 /* Containers: Body, Container, Box, Main, Header, Content */
 
 @font-face {
+  font-family: 'Compact';
+  src: url('../fonts/AltissimaCompact009GX.woff2') format('woff2');
+  display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Signifier';
+  src: url('../fonts/signifier-web-regular.woff2') format('woff2');
+  display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Signifier';
+  src: url('../fonts/signifier-web-regular-italic.woff2') format('woff2');
+  display: swap;
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Radio';
+  src: url('../fonts/PPRadioGrotesk-Regular.woff2') format('woff2');
+  display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Radio';
+  src: url('../fonts/PPRadioGrotesk-Bold.woff2') format('woff2');
+  display: swap;
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'GT-Alpina-VAR';
   src: url('../fonts/GT-Alpina-VAR.woff2') format('woff2');
   display: swap;
@@ -431,11 +472,11 @@ html[data-theme="dark"] {
   --line-height-snug: 1.375;
 
   /* Font family */
-  --font-family-serif: "GT-std", Iowan Old Style, Apple Garamond, Baskerville,
+  --font-family-serif: "Signifier", Iowan Old Style, Apple Garamond, Baskerville,
     Times New Roman, Droid Serif, Times, Source Serif Pro, serif,
     Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-  --font-family-mono: "Roobert", 'SFMono-Regular', 'Menlo', monospace;
-  --font-family-sans: "Roobert", -apple-system, BlinkMacSystemFont,
+  --font-family-mono: "Radio", 'SFMono-Regular', 'Menlo', monospace;
+  --font-family-sans: "Radio", -apple-system, BlinkMacSystemFont,
     avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto,
     noto, arial, sans-serif;
 
@@ -1455,7 +1496,7 @@ summary {
     text-decoration: none;
     font-weight: normal;
     font-size: 1.7rem;
-    font-family: "gt-condensed";
+    font-family: "Compact";
 }
 
 
