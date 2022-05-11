@@ -1714,6 +1714,7 @@ summary {
     bottom: 30px;
     right: 15px;
     border: 2px solid var(--c-text);*/
+	border: 2px solid var(--c-text);
 	font-size: 20px;
     line-height: .91;
     text-align: center;
@@ -1731,7 +1732,7 @@ summary {
     border-radius: 180px;
     position: fixed;
     right: 10px;
-    bottom: 10px;
+    bottom: 112px;
     border-radius: 180px;
     cursor: pointer;
     box-shadow: -10px 10px 20px 0 var(--c-border-light);
