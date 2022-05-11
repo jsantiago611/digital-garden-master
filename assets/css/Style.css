@@ -583,7 +583,7 @@ main {
 	font-variant-numeric: oldstyle-nums;
 	font-feature-settings: pnum;
 	font-family: var(--font-family-sans);
-	font-weight: regular;
+	font-weight: 400;
 	line-height: 1;
 	margin: 36px 0 8px;
 	color: var(--c-text-strong);
