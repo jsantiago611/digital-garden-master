@@ -589,7 +589,7 @@ main {
 	color: var(--c-text-strong);
   	/* border-bottom: 1px solid var(--c-border) !important;*/
   	padding-bottom: 1.3rem;
-	letter-spacing: -0.04em;
+	letter-spacing: 0.01em;
  	font-variant-ligatures: discretionary-ligatures;
 	
 }
@@ -597,7 +597,6 @@ main {
 @media(min-width: 300px)and (max-width: 1069px) {
 	 h1 {
 	font-size: calc(40px + (80 - 40) * ( 100vw - 300px) / (1070 - 300));
-	letter-spacing: -0.04em;
 	}
 }
 
@@ -643,7 +642,7 @@ main {
  h2 {
 	font-size: 28px;
 	font-weight: bold;
-	letter-spacing: -0.01em;
+	letter-spacing: 0.01em;
 	line-height: 1.2;
 	margin-top: 24px;
 	padding: 24px 0 5px;
@@ -1693,22 +1692,7 @@ summary {
 /* Common custom components between Main Site and Notes: Searchbar, Backbutton, ContentBox, Related Posts/Notes, Copyright,  */
 
 #theme-toggle {
-    /* height: 35px;
-    width: 100px;
-    position: absolute;
-    top: 58px;
-    right: 20px;
-    align-items: center;
-
-
-    justify-content: center;
-    padding: 8px;
-    z-index: 90;
-    font-family: var(--font-family-mono);
-    cursor: pointer;
-    font-weight: 400; */
-
-    background-color: var(--c-text);
+    /*background-color: var(--c-text);
     color: var(--c-topper-split-bg);
     flex-basis: auto;
     display: flex;
@@ -1718,7 +1702,7 @@ summary {
     margin-top: 0px;
     margin-left: auto;
     font-family: var(--font-family-serif);
-    font-size: 2rem;
+    font-size: 20px;
     border-radius: 100px;
     cursor: pointer;
     width: 50px;
@@ -1729,8 +1713,25 @@ summary {
     position: fixed;
     bottom: 30px;
     right: 15px;
-    border: 2px solid var(--c-text);
+    border: 2px solid var(--c-text);*/
     z-index:1000;
+	font-size: 20px;
+    line-height: .91;
+    text-align: center;
+    opacity: 1;
+    font-family: var(--font-family-serif);
+    font-weight: 400;
+    font-style: normal;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: var(--c-text);
+    color: var(--c-topper-split-bg);
 }
 
 .button,
