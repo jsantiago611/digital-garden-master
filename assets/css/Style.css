@@ -473,11 +473,11 @@ html[data-theme="dark"] {
   --line-height-snug: 1.375;
 
   /* Font family */
-  --font-family-serif: "Copernicus", Iowan Old Style, Apple Garamond, Baskerville,
+  --font-family-serif: "Editor", Iowan Old Style, Apple Garamond, Baskerville,
     Times New Roman, Droid Serif, Times, Source Serif Pro, serif,
     Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-  --font-family-mono: "pitch", 'SFMono-Regular', 'Menlo', monospace;
-  --font-family-sans: "untitled", -apple-system, BlinkMacSystemFont,
+  --font-family-mono: "GTAmericaMono", 'SFMono-Regular', 'Menlo', monospace;
+  --font-family-sans: "Editor", -apple-system, BlinkMacSystemFont,
     avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto,
     noto, arial, sans-serif;
 
