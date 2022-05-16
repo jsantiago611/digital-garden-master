@@ -561,11 +561,11 @@ html[data-theme="dark"] {
   --line-height-snug: 1.375;
 
   /* Font family */
-  --font-family-serif: "Editor", Iowan Old Style, Apple Garamond, Baskerville,
+  --font-family-serif: "Academica", Iowan Old Style, Apple Garamond, Baskerville,
     Times New Roman, Droid Serif, Times, Source Serif Pro, serif,
     Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   --font-family-mono: "GTAmericaMono", 'SFMono-Regular', 'Menlo', monospace;
-  --font-family-sans: "Editor", -apple-system, BlinkMacSystemFont,
+  --font-family-sans: "Theinhardt", -apple-system, BlinkMacSystemFont,
     avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto,
     noto, arial, sans-serif;
 
@@ -1583,10 +1583,9 @@ summary {
 .site-heading-ltr a {
     text-decoration: none;
     font-weight: normal;
-    font-size: 1.7rem;
+    font-size: calc(70px + (160 - 70) * ( 100vw - 300px) / (1070 - 300));
     font-family: var(--font-family-sans);
 }
-
 
 .avatar {
     position: absolute;
