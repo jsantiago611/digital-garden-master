@@ -1802,6 +1802,7 @@ summary {
     bottom: 30px;
     right: 15px;
     border: 2px solid var(--c-text);*/
+	/*
 	border: 2px solid var(--c-text);
 	font-size: 20px;
     line-height: .91;
@@ -1826,7 +1827,22 @@ summary {
     box-shadow: -10px 10px 20px 0 var(--c-border-light);
     z-index: 75;
     transform: translateY(100px);
+    transition: transform .5s ease 0s,visibility 0s linear .5s; */
+	
+    #theme-toggle {
+    border: 2px solid var(--c-text);
+    font-size: 15px;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--c-text);
+    color: var(--c-topper-split-bg);
+    cursor: pointer;
+    box-shadow: -10px 10px 20px 0 var(--c-border-light);
+    z-index: 75;
     transition: transform .5s ease 0s,visibility 0s linear .5s;
+}
 }
 
 .button,
