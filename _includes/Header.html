@@ -184,7 +184,13 @@
             <p class="menu-item-text">RSS</p>
         </a>
         {%- if site.preferences.search.enabled -%}
-        <div class="searchbar search-container">
+        <script type="text/javascript" src="/assets/js/vendor/lunr.min.js"></script>
+        <script src="/assets/js/Search.js"></script>
+        <script src="/scripts/theme-switcher.js"></script>
+        {%- endif -%}
+        <button id="theme-toggle" onclick="modeSwitcher()"></button>
+    </div>
+    <div class="searchbar search-container">
             {%- if site.preferences.search.shortcut_hint.enabled -%}
             <div class="search-shortcut disable-select">
                 <kbd class="disable-select">Shift</kbd>
@@ -198,12 +204,6 @@
               </div>
             <div id="search-results" class="search-results"></div>
         </div>
-        <script type="text/javascript" src="/assets/js/vendor/lunr.min.js"></script>
-        <script src="/assets/js/Search.js"></script>
-        <script src="/scripts/theme-switcher.js"></script>
-        {%- endif -%}
-        <button id="theme-toggle" onclick="modeSwitcher()"></button>
-    </div>
     
     
     {%- if page.permalink != "/" -%}
