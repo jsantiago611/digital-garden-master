@@ -1584,7 +1584,7 @@ summary {
     text-decoration: none;
     font-weight: normal;
     font-size: calc(70px + (160 - 70) * ( 100vw - 300px) / (1070 - 300));
-    font-family: var(--font-family-sans);
+    font-family: "Staff";
 }
 
 .avatar {
