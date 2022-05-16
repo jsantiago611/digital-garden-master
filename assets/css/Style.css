@@ -1779,8 +1779,8 @@ summary {
 
 /* Common custom components between Main Site and Notes: Searchbar, Backbutton, ContentBox, Related Posts/Notes, Copyright,  */
 
-#theme-toggle {
-    /*background-color: var(--c-text);
+/*#theme-toggle {
+    background-color: var(--c-text);
     color: var(--c-topper-split-bg);
     flex-basis: auto;
     display: flex;
@@ -1844,7 +1844,12 @@ summary {
     width: 50px;
     height: 50px;
 }
+
+#theme-toggle-img {
+	height: auto;
+	width: auto;
 }
+
 
 .button,
 a.button {
