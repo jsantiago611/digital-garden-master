@@ -188,7 +188,9 @@
         <script src="/assets/js/Search.js"></script>
         <script src="/scripts/theme-switcher.js"></script>
         {%- endif -%}
-        <img src="../assets/img/sun.svg" id="theme-toggle" onclick="modeSwitcher()"</img>
+        <button onclick="modeSwitcher()">
+            <img src="../assets/img/sun.svg" id="theme-toggle"</img>
+        </button>
     </div>
     <div class="searchbar search-container">
             {%- if site.preferences.search.shortcut_hint.enabled -%}
@@ -200,11 +202,9 @@
             <label for="search-input"></label>
             <input type="text" id="search-input" autocomplete="off" placeholder="Search"/>
             <div style="position: relative;">
-                <p class="search-icon">🔎</p>
+                <p class="search-icon"></p>
               </div>
-            <a>
-                <div id="search-results" class="search-results"></div>
-            </a>
+            <div id="search-results" class="search-results"></div>
         </div>
     
     
