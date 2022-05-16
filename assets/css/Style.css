@@ -7,6 +7,71 @@ layout: Stylesheet
 /* Containers: Body, Container, Box, Main, Header, Content */
 
 @font-face {
+  font-family: 'Academica';
+  src: url('../fonts/AcademicaMedium.woff2') format('woff2');
+  display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Academica';
+  src: url('../fonts/AcademicaLight.woff2') format('woff2');
+  display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Academica';
+  src: url('../fonts/AcademicaLightItalic.woff2') format('woff2');
+  display: swap;
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Theinhardt';
+  src: url('../fonts/Theinhardt-Regular.woff2') format('woff2');
+  display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Theinhardt';
+  src: url('../fonts/Theinhardt-Medium.woff2') format('woff2');
+  display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Theinhardt';
+  src: url('../fonts/Theinhardt-Medium.woff2') format('woff2');
+  display: swap;
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Staff';
+  src: url('../fonts/StaffXXCondensed-SemiBold.woff2') format('woff2');
+  display: swap;
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Supreme';
+  src: url('../fonts/SupremeLLWeb-Regular.woff') format('woff');
+  display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+@font-face {
   font-family: 'Supreme';
   src: url('../fonts/SupremeLLWeb-Regular.woff') format('woff');
   display: swap;
