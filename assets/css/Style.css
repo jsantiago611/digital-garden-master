@@ -6,6 +6,29 @@ layout: Stylesheet
 /*@import "/assets/css/theme.css"; leaving out for now, will tinker w/color switcher later...*/
 /* Containers: Body, Container, Box, Main, Header, Content */
 
+@font-face {
+  font-family: 'Supreme';
+  src: url('../fonts/SupremeLLWeb-Regular.woff') format('woff');
+  display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Supreme';
+  src: url('../fonts/SupremeLLWeb-Medium.woff') format('woff');
+  display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Supreme';
+  src: url('../fonts/SupremeLLWeb-Black.woff') format('woff');
+  display: swap;
+  font-weight: 800;
+  font-style: normal;
+}
 
 @font-face {
   font-family: 'Signifier';
