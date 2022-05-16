@@ -188,7 +188,7 @@
         <script src="/assets/js/Search.js"></script>
         <script src="/scripts/theme-switcher.js"></script>
         {%- endif -%}
-        <button id="theme-toggle" onclick="modeSwitcher()"></button>
+        <img src="../assets/img/sun.svg" id="theme-toggle" onclick="modeSwitcher()"</img>
     </div>
     <div class="searchbar search-container">
             {%- if site.preferences.search.shortcut_hint.enabled -%}
@@ -202,7 +202,9 @@
             <div style="position: relative;">
                 <p class="search-icon">🔎</p>
               </div>
-            <div id="search-results" class="search-results"></div>
+            <a>
+                <div id="search-results" class="search-results"></div>
+            </a>
         </div>
     
     
