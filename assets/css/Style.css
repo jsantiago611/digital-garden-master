@@ -1834,9 +1834,9 @@ summary {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--c-text);
+    background-color: var(--c-card-bg-light);
     cursor: pointer;
-    box-shadow: -10px 10px 20px 0 var(--c-border-light);
+    /*box-shadow: -10px 10px 20px 0 var(--c-border-light);*/
     z-index: 75;
     transition: transform .5s ease 0s,visibility 0s linear .5s;
     border-radius: 50%;
@@ -1848,6 +1848,7 @@ summary {
 #theme-toggle-img {
 	height: auto;
 	width: auto;
+	max-width: none !important;
 }
 
 
