@@ -186,9 +186,8 @@
         {%- if site.preferences.search.enabled -%}
         <script type="text/javascript" src="/assets/js/vendor/lunr.min.js"></script>
         <script src="/assets/js/Search.js"></script>
-        <script src="/scripts/theme-switcher.js"></script>
         {%- endif -%}
-        <button id="theme-toggle" onclick="modeSwitcher()">● Light Mode</button>
+        <a href="{{page.url}}" id="theme-toggle" onclick="modeSwitcher()" style="cursor: pointer;"></a>
     </div>
     <div class="searchbar search-container">
             {%- if site.preferences.search.shortcut_hint.enabled -%}
