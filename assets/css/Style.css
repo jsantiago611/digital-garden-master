@@ -1867,15 +1867,18 @@ summary {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--c-card-bg-light);
+    background-color: transparent;
     cursor: pointer;
-    /*box-shadow: -10px 10px 20px 0 var(--c-border-light);*/
     z-index: 75;
     transition: transform .5s ease 0s,visibility 0s linear .5s;
-    border-radius: 50%;
     border: transparent;
-    width: 50px;
-    height: 50px;
+    margin-top: 0px;
+    margin-left: auto;
+    font-weight: 400;
+    font-size: var(--font-size-small);
+    font-family: var(--font-family-mono);
+    color: var(--c-text-muted);
+    margin-bottom: 0;
 }
 
 #theme-toggle-img {
