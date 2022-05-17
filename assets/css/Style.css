@@ -1770,8 +1770,8 @@ summary {
     justify-content: space-evenly;
     width: 100%;
     float: left;
-    border-top: 1px solid var(--c-border); 
-    border-bottom: 1px solid var(--c-border); 
+    /*border-top: 1px solid var(--c-border); 
+    border-bottom: 1px solid var(--c-border); */
     padding: -1px 0; 
     margin-bottom: 1.3rem; 
 }
@@ -2327,13 +2327,13 @@ a.button-block {
     box-sizing: border-box;
     width: 100%;
     height: 40px;
-    border: 1px solid var(--c-border);
-    font-family: var(--font-family-serif) !important;
+    /*border: 1px solid var(--c-border);*/
+    font-family: var(--font-family-mono) !important;
     color: var(--c-text);
-    font-size: var(--font-size-medium);
+    font-size: var(--font-size-small);
     background-color: var(--c-bg);
     /*margin-top: 1em;*/
-    padding: 0 1.25em;
+    padding: 0 1em;
     /*margin-left: 25px;*/
 	
 }
@@ -2341,7 +2341,7 @@ a.button-block {
 ::placeholder {
     color: var(--c-text-muted);
     font-size: 1rem;
-    font-family:  var(--font-family-serif) !important;
+    font-family:  var(--font-family-mono) !important;
 }
 
   .search-icon {
