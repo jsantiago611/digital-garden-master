@@ -32,9 +32,9 @@ layout: Stylesheet
 
 @font-face {
   font-family: 'Suisse';
-  src: url('../fonts/uisseIntl-Bold-WebXL.woff') format('woff');
+  src: url('../fonts/SuisseIntl-Bold-WebXL.woff') format('woff');
   display: swap;
-  font-weight: bold;
+  font-weight: 700;
   font-style: normal;
 }
 
