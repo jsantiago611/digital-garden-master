@@ -173,6 +173,7 @@
         </a>
     </div>
     {%- endif -%}
+    
     <div class="main-site-subheader menu disable-select">
         <a class="menu-item" href="/about">
             <p class="menu-item-text">About</p>
@@ -188,6 +189,7 @@
         <script src="/assets/js/Search.js"></script>
         {%- endif -%}
         <div id="theme-toggle" onclick="modeSwitcher()" style="cursor: pointer;"></div>
+        {% include text-expand.html %}
     </div>
     <div class="searchbar search-container">
             {%- if site.preferences.search.shortcut_hint.enabled -%}
