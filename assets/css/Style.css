@@ -47,6 +47,14 @@ layout: Stylesheet
 }
 
 @font-face {
+  font-family: 'Ogg';
+  src: url('../fonts/Ogg-Regular.woff') format('woff');
+  display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'OggText';
   src: url('../fonts/OggText-Bold.woff') format('woff');
   display: swap;
