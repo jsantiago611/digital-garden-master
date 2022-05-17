@@ -7,6 +7,38 @@ layout: Stylesheet
 /* Containers: Body, Container, Box, Main, Header, Content */
 
 @font-face {
+  font-family: 'SuisseMono';
+  src: url('../fonts/SuisseIntlMono-Regular-WebXL.woff') format('woff');
+  display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Suisse';
+  src: url('../fonts/SuisseIntl-Regular-WebXL.woff') format('woff');
+  display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Suisse';
+  src: url('../fonts/SuisseIntl-RegularItalic-WebXL.woff') format('woff');
+  display: swap;
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Suisse';
+  src: url('../fonts/uisseIntl-Bold-WebXL.woff') format('woff');
+  display: swap;
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'Ogg';
   src: url('../fonts/Ogg-Bold.woff') format('woff');
   display: swap;
@@ -593,11 +625,11 @@ html[data-theme="dark"] {
   --line-height-snug: 1.375;
 
   /* Font family */
-  --font-family-serif: "Academica", Iowan Old Style, Apple Garamond, Baskerville,
+  --font-family-serif: "Ogg", Iowan Old Style, Apple Garamond, Baskerville,
     Times New Roman, Droid Serif, Times, Source Serif Pro, serif,
     Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-  --font-family-mono: "GTAmericaMono", 'SFMono-Regular', 'Menlo', monospace;
-  --font-family-sans: "Theinhardt", -apple-system, BlinkMacSystemFont,
+  --font-family-mono: "SuisseMono", 'SFMono-Regular', 'Menlo', monospace;
+  --font-family-sans: "Suisse", -apple-system, BlinkMacSystemFont,
     avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto,
     noto, arial, sans-serif;
 
