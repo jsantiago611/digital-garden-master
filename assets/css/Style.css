@@ -1659,9 +1659,14 @@ summary {
     font-family: "ogg";
     box-shadow: none;
     line-height: .9;
+    letter-spacing: -0.02em;
 }
 
 .site-heading-ltr a:hover {
+	    box-shadow: none;
+}
+
+.site-heading-ltr a:active {
 	    box-shadow: none;
 }
 
