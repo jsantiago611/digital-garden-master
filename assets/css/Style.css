@@ -2331,10 +2331,11 @@ a.button-block {
     font-family: var(--font-family-serif) !important;
     color: var(--c-text);
     font-size: var(--font-size-medium);
-    background-color: var(--c-card-bg-light);
+    background-color: var(--c-bg);
     /*margin-top: 1em;*/
     padding: 0 1.25em;
     /*margin-left: 25px;*/
+	
 }
 
 ::placeholder {
