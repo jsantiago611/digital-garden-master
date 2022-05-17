@@ -1653,6 +1653,11 @@ summary {
     line-height: .9;
 }
 
+.site-heading-ltr a:hover {
+	    box-shadow: none;
+
+}
+
 .avatar {
     position: absolute;
     top: 50px;
@@ -2319,7 +2324,6 @@ a.button-block {
     /*margin-top: 1em;*/
     padding: 0 1.25em;
     /*margin-left: 25px;*/
-    border-radius: 1000px;
 }
 
 ::placeholder {
@@ -2596,12 +2600,13 @@ a.button-block {
     margin-left: 20px;
     margin-right: 50px;
     font-family:  var(--font-family-sans);
-    font-weight: var(--font-weight-bold);
+    font-weight: 400;
     letter-spacing: var(--letter-spacing-tight);
     font-size: 25px;
     line-height: 1;
     /*border-bottom: 1px solid var(--c-card-text);*/
     padding-bottom: 1rem;
+	text-transform: uppercase;
 
     @media(min-width: 300px)and (max-width:1499px) {
       font-size: calc(25px + (45 - 25) * ( 100vw - 300px) / ( 1500 - 300))
