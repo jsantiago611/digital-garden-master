@@ -1772,7 +1772,7 @@ summary {
     float: left;
     border-top: 1px solid var(--c-border); 
     border-bottom: 1px solid var(--c-border); 
-    padding: 15px 0; 
+    padding: -1px 0; 
     margin-bottom: 1.3rem; 
 }
 
