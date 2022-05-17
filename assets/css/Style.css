@@ -7,6 +7,38 @@ layout: Stylesheet
 /* Containers: Body, Container, Box, Main, Header, Content */
 
 @font-face {
+  font-family: 'Ogg';
+  src: url('../fonts/Ogg-Bold.woff') format('woff');
+  display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OggText';
+  src: url('../fonts/OggText-Bold.woff') format('woff');
+  display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OggText';
+  src: url('../fonts/OggText-BookItalic.woff') format('woff');
+  display: swap;
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'OggText';
+  src: url('../fonts/OggText-Book.woff') format('woff');
+  display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'Academica';
   src: url('../fonts/AcademicaMedium.woff2') format('woff2');
   display: swap;
