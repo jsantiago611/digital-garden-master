@@ -1757,10 +1757,10 @@ summary {
     justify-content: space-evenly;
     width: 100%;
     float: left;
-    /* border-top: 1px solid var(--c-border); */
-    /* border-bottom: 1px solid var(--c-border); */
-    /* padding: 15px 0; */
-    /* margin-bottom: 1.3rem; */
+    border-top: 1px solid var(--c-border); 
+    border-bottom: 1px solid var(--c-border); 
+    padding: 15px 0; 
+    margin-bottom: 1.3rem; 
 }
 
 .menu-right {
