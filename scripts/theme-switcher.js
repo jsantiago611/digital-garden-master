@@ -7,25 +7,20 @@ Creative Commons Attribution 4.0 International License
 let systemInitiatedDark = window.matchMedia("(prefers-color-scheme: dark)"); 
 let theme = sessionStorage.getItem('theme');
 
-function changeIconImgSrc(src) {
-	document.getElementById("theme-toggle-img").src = src;
-	document.getElementById("theme-toggle-img--mobile").src = src;
-}
-
 if (systemInitiatedDark.matches) {
-	changeIconImgSrc("../assets/img/moon.svg");
+	document.getElementById("theme-toggle").innerHTML = "● Light Mode";
 } else {
-	changeIconImgSrc("../assets/img/sun.svg");
+	document.getElementById("theme-toggle").innerHTML = "● Dark Mode";
 }
 
 function prefersColorTest(systemInitiatedDark) {
   if (systemInitiatedDark.matches) {
   	document.documentElement.setAttribute('data-theme', 'dark');		
-   	changeIconImgSrc("../assets/img/moon.svg");
+   	document.getElementById("theme-toggle").innerHTML = "● Light Mode";
    	sessionStorage.setItem('theme', '');
   } else {
   	document.documentElement.setAttribute('data-theme', 'light');
-    changeIconImgSrc("../assets/img/sun.svg");
+    document.getElementById("theme-toggle").innerHTML = "● Dark Mode";
     sessionStorage.setItem('theme', '');
   }
 }
@@ -37,28 +32,28 @@ function modeSwitcher() {
 	if (theme === "dark") {
 		document.documentElement.setAttribute('data-theme', 'light');
 		sessionStorage.setItem('theme', 'light');
-		changeIconImgSrc("../assets/img/sun.svg");
+		document.getElementById("theme-toggle").innerHTML = "● Dark Mode";
 	}	else if (theme === "light") {
 		document.documentElement.setAttribute('data-theme', 'dark');
 		sessionStorage.setItem('theme', 'dark');
-		changeIconImgSrc("../assets/img/moon.svg");
+		document.getElementById("theme-toggle").innerHTML = "● Light Mode";
 	} else if (systemInitiatedDark.matches) {	
 		document.documentElement.setAttribute('data-theme', 'light');
 		sessionStorage.setItem('theme', 'light');
-		changeIconImgSrc("../assets/img/sun.svg");
+		document.getElementById("theme-toggle").innerHTML = "● Dark Mode";
 	} else {
 		document.documentElement.setAttribute('data-theme', 'dark');
 		sessionStorage.setItem('theme', 'dark');
-		changeIconImgSrc("../assets/img/moon.svg");
+		document.getElementById("theme-toggle").innerHTML = "● Light Mode";
 	}
 }
 
 if (theme === "dark") {
 	document.documentElement.setAttribute('data-theme', 'dark');
 	sessionStorage.setItem('theme', 'dark');
-	changeIconImgSrc("../assets/img/moon.svg");
+	document.getElementById("theme-toggle").innerHTML = "● Light Mode";
 } else if (theme === "light") {
 	document.documentElement.setAttribute('data-theme', 'light');
 	sessionStorage.setItem('theme', 'light');
-	changeIconImgSrc("../assets/img/sun.svg");
+	document.getElementById("theme-toggle").innerHTML = "● Dark Mode";
 }
