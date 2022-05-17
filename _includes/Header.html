@@ -188,9 +188,9 @@
         <script src="/assets/js/Search.js"></script>
         <script src="/scripts/theme-switcher.js"></script>
         {%- endif -%}
-        <button id="theme-toggle" onclick="modeSwitcher()">
-            <img src="../assets/img/sun.svg" id="theme-toggle-img"</img>
-        </button>
+        <a  class="menu-item" onclick="modeSwitcher()">
+            <p class="menu-item-text"></p>
+        </a>
     </div>
     <div class="searchbar search-container">
             {%- if site.preferences.search.shortcut_hint.enabled -%}
