@@ -2587,7 +2587,7 @@ a.button-block {
 .feed-title-excerpt-block {
     width: 100%;
     cursor: pointer;
-    border-bottom: 1px solid var(--c-card-border-light);
+    border: 1px solid var(--c-card-border-light);
     /*background-color: var(--c-gradient-fade);*/
     margin: 2rem 0;
     padding-bottom: 1rem;
@@ -2611,14 +2611,13 @@ a.button-block {
     color: var(--c-text-strong);
     margin-left: 20px;
     margin-right: 50px;
-    font-family:  var(--font-family-sans);
+    font-family:  'OggText';
     font-weight: 400;
     letter-spacing: var(--letter-spacing-tight);
     font-size: 25px;
     line-height: 1;
     /*border-bottom: 1px solid var(--c-card-text);*/
     padding-bottom: 1rem;
-	text-transform: uppercase;
 
     @media(min-width: 300px)and (max-width:1499px) {
       font-size: calc(25px + (45 - 25) * ( 100vw - 300px) / ( 1500 - 300))
