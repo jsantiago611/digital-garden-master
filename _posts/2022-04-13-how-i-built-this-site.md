@@ -1,6 +1,5 @@
 ---
 title: How I Built My Website
-status: ongoing
 ---
 
 This note [[inspired by Walter Teng's note of the same title::lsn]] contains the changelog of larger changes for building this website. I've posted them here because they may be helpful if you decide to build a similar digital garden of your own using Jekyll.
