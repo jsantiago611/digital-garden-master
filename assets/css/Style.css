@@ -7,6 +7,32 @@ layout: Stylesheet
 /* Containers: Body, Container, Box, Main, Header, Content */
 
 @font-face {
+  font-family: 'Heldane-Text';
+  src: url('../fonts/HeldaneTextWeb-Regular.woff2') format('woff2');
+  display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Heldane-Text';
+  src: url('../fonts/HeldaneTextWeb-RegularItalic.woff2') format('woff2');
+  display: swap;
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Heldane-Text';
+  src: url('../fonts/HeldaneTextWeb-Bold.woff2') format('woff2');
+  display: swap;
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+
+@font-face {
   font-family: 'Salter';
   src: url('../fonts/Salter-Roman.woff') format('woff');
   display: swap;
