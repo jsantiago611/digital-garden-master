@@ -769,7 +769,7 @@ main {
 
 @media(max-width: 500px) {
 	.menu {
-	padding: 15px 0px 15px 0px;
+	padding: 15px 0px 5px 0px;
 	}
 }
 
@@ -1962,7 +1962,7 @@ summary {
     transition: transform .5s ease 0s,visibility 0s linear .5s;
     border: transparent;
     margin-top: 0px;
-    margin-left: auto;
+    margin-left: 5px;
     font-weight: 400;
     font-size: var(--font-size-small);
     font-family: var(--font-family-mono);
