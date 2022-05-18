@@ -1695,11 +1695,23 @@ summary {
 .site-heading-ltr a {
     text-decoration: none;
     font-weight: normal;
-    font-size: calc(70px + (160 - 70) * ( 100vw - 300px) / (1070 - 300));
+    font-size: 70px;
     font-family: "Salter";
     box-shadow: none;
     line-height: .9;
     letter-spacing: -0.02em;
+}
+
+@media(min-width: 300px)and (max-width: 1069px) {
+	 .site-heading-ltr a {
+	font-size: calc(70px + (160 - 70) * ( 100vw - 300px) / (1070 - 300));
+	}
+}
+
+@media(min-width: 1070px) {
+	 .site-heading-ltr a {
+		font-size: 160px
+	}
 }
 
 .site-heading-ltr a:hover {
@@ -1813,7 +1825,7 @@ summary {
     /*border-top: 1px solid var(--c-border); 
     border-bottom: 1px solid var(--c-border); */
     padding: -1px 0; 
-    margin-bottom: 1.3rem; 
+    margin-bottom: 0px; 
 }
 
 .menu-right {
@@ -2658,7 +2670,8 @@ a.button-block {
     font-size: 35px;
     line-height: 1;
     /*border-bottom: 1px solid var(--c-card-text);*/
-    padding-bottom: 1rem;
+    padding-bottom: 0;
+    margin-bottom: 1.5rem;
 
     @media(min-width: 300px)and (max-width:1499px) {
       font-size: calc(35px + (49 - 35) * ( 100vw - 300px) / ( 1500 - 300))
