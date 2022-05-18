@@ -3098,8 +3098,8 @@ label.srs-toggle {
 .related h4 {
     color: var(--secondary-text-color);
     padding-top: 20px;
-    padding-left: 20px
-	    font-family: var(--font-family-mono);
+    padding-left: 20px;
+    font-family: var(--font-family-mono);
 }
 
 .related-wrapper {
