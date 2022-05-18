@@ -1714,7 +1714,9 @@ summary {
     font-family:  var(--primary-font-family);
     font-weight: 600;
     margin-left: 20px;
-    margin-bottom: 2rem;
+    /*margin-bottom: 2rem;*/
+border-bottom: 1px solid var(--c-card-border);
+	padding-bottom: 0.2rem;
 }
 
 .site-heading-ltr > .main-page-tagline {
