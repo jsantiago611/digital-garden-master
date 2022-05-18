@@ -1722,6 +1722,10 @@ summary {
 	    box-shadow: none;
 }
 
+.site-heading-ltr a:focus {
+	    box-shadow: none;
+}
+
 .avatar {
     position: absolute;
     top: 50px;
