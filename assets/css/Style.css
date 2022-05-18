@@ -2455,7 +2455,7 @@ a.button-block {
     font-size: var(--font-size-small);
     background-color: var(--c-card-bg-light);
 	
-	@media(min-width: 1500px) {
+	@media (min-width: 1500px) .searchbar input[type="text"] {
 	      width: 90%;
 	    }
 	
