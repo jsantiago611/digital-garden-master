@@ -7,6 +7,46 @@ layout: Stylesheet
 /* Containers: Body, Container, Box, Main, Header, Content */
 
 @font-face {
+  font-family: 'Salter';
+  src: url('../fonts/Salter-Roman.woff') format('woff');
+  display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Salter';
+  src: url('../fonts/Salter-Italic.woff') format('woff');
+  display: swap;
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Frauen';
+  src: url('../fonts/Frauen-Roman.woff') format('woff');
+  display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Relative';
+  src: url('../fonts/relative-book (2).woff2') format('woff');
+  display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Relative';
+  src: url('../fonts/relative-bold (2).woff2') format('woff');
+  display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'SuisseMono';
   src: url('../fonts/SuisseIntlMono-Regular-WebXL.woff') format('woff');
   display: swap;
