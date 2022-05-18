@@ -673,11 +673,11 @@ html[data-theme="dark"] {
   --line-height-snug: 1.375;
 
   /* Font family */
-  --font-family-serif: "Suisse", Iowan Old Style, Apple Garamond, Baskerville,
+  --font-family-serif: "Frauen", Iowan Old Style, Apple Garamond, Baskerville,
     Times New Roman, Droid Serif, Times, Source Serif Pro, serif,
     Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-  --font-family-mono: "SuisseMono", 'SFMono-Regular', 'Menlo', monospace;
-  --font-family-sans: "Suisse", -apple-system, BlinkMacSystemFont,
+  --font-family-mono: "Relative", 'SFMono-Regular', 'Menlo', monospace;
+  --font-family-sans: "Relative", -apple-system, BlinkMacSystemFont,
     avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto,
     noto, arial, sans-serif;
 
@@ -1696,7 +1696,7 @@ summary {
     text-decoration: none;
     font-weight: normal;
     font-size: calc(70px + (160 - 70) * ( 100vw - 300px) / (1070 - 300));
-    font-family: "ogg";
+    font-family: "Salter";
     box-shadow: none;
     line-height: .9;
     letter-spacing: -0.02em;
@@ -2651,16 +2651,16 @@ a.button-block {
     color: var(--c-text-strong);
     margin-left: 20px;
     margin-right: 50px;
-    font-family:  'OggText';
+    font-family:  var(--font-family-serif);
     font-weight: 400;
     letter-spacing: var(--letter-spacing-tight);
-    font-size: 25px;
+    font-size: 35px;
     line-height: 1;
     /*border-bottom: 1px solid var(--c-card-text);*/
     padding-bottom: 1rem;
 
     @media(min-width: 300px)and (max-width:1499px) {
-      font-size: calc(25px + (45 - 25) * ( 100vw - 300px) / ( 1500 - 300))
+      font-size: calc(35px + (49 - 35) * ( 100vw - 300px) / ( 1500 - 300))
     }
 
     @media(min-width: 1500px) {
@@ -2677,10 +2677,10 @@ a.button-block {
     margin-top: -12px;
     margin-left: 20px !important;
     margin-right: 30px;
-    font-family:  var(--font-family-serif);
-    font-style: italic;
+    font-family:  var(--font-family-sans);
     font-size: 15px;
     overflow: hidden;
+    margin-bottom: 5px;
 }
 
 .tags {
@@ -2782,17 +2782,18 @@ position: absolute;
     padding: 0px 10px !important;
     height: auto;
     vertical-align: middle;
-    font-family: var(--font-family-mono);
+    font-family: 'Salter';
     font-weight: normal !important;
-    font-size: var(--font-size-small);
+    font-size: var(--font-size-medium);
     margin-bottom: 0;
-    background-color: var(--c-card-bg-light);
+    /* background-color: var(--c-card-bg-light); */
     line-height: 1.5rem !important;
+    font-style: italic;
 }
 
 .status {
   & b {
-    border-right: 1px solid var(--c-border);
+    /*border-right: 1px solid var(--c-border);*/
     /*background-color: var(--c-text);
     color: var(--c-bg);*/
     height: 100%;
