@@ -2444,18 +2444,20 @@ a.button-block {
 
 
 .searchbar input[type="text"] {
-    padding-left: 50px;
+        margin-left: 20px;
+    padding-left: 18px;
     box-sizing: border-box;
-    width: 100%;
+    width: 95%;
     height: 40px;
     border: 1px solid transparent;
-    font-family: var(--font-family-mono) !important;
+    font-family: var(--font-family-sans) !important;
     color: var(--c-text);
     font-size: var(--font-size-small);
     background-color: var(--c-card-bg-light);
-    /*margin-top: 1em;*/
-    padding: 0 1em;
-    /*margin-left: 25px;*/
+	
+	@media(min-width: 1500px) {
+	      width: 90%;
+	    }
 	
 }
 
