@@ -715,11 +715,11 @@ html[data-theme="dark"] {
   --line-height-snug: 1.375;
 
   /* Font family */
-  --font-family-serif: "Frauen", Iowan Old Style, Apple Garamond, Baskerville,
+  --font-family-serif: "Ogg", Iowan Old Style, Apple Garamond, Baskerville,
     Times New Roman, Droid Serif, Times, Source Serif Pro, serif,
     Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   --font-family-mono: "Relative", 'SFMono-Regular', 'Menlo', monospace;
-  --font-family-sans: "Relative", -apple-system, BlinkMacSystemFont,
+  --font-family-sans: "OggText", -apple-system, BlinkMacSystemFont,
     avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto,
     noto, arial, sans-serif;
 
@@ -883,12 +883,13 @@ main {
 
  h2 {
 	font-size: 28px;
-	font-weight: bold;
+	font-weight: 400;
 	letter-spacing: 0.01em;
 	line-height: 1.2;
 	margin-top: 24px;
 	padding: 24px 0 5px;
-	color: var(--c-text-strong)
+	color: var(--c-text-strong);
+	 font-family: var(--font-family-mono);
 }
 
 @media(min-width: 300px)and (max-width: 1499px) {
@@ -939,11 +940,12 @@ main {
 
  h3 {
 	font-size: 21px;
-	font-weight: bold;
+	font-weight: 400;
 	letter-spacing: -0.01em;
 	line-height: 1.2;
 	margin: 36px 0 5px;
-	color: var(--c-text-strong)
+	color: var(--c-text-strong);
+	 font-family: var(--font-family-mono);
 }
 
 @media(min-width: 300px)and (max-width: 1199px) {
@@ -1738,7 +1740,7 @@ summary {
     text-decoration: none;
     font-weight: normal;
     font-size: 70px;
-    font-family: "Salter";
+    font-family: var(--font-family-serif);
     box-shadow: none;
     line-height: .9;
     letter-spacing: -0.02em;
