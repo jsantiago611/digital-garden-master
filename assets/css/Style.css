@@ -145,6 +145,22 @@ layout: Stylesheet
 }
 
 @font-face {
+  font-family: 'OggText';
+  src: url('../fonts/OggText-Light (1).woff') format('woff');
+  display: swap;
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OggText';
+  src: url('../fonts/OggText-LightItalic.woff') format('woff');
+  display: swap;
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
   font-family: 'Academica';
   src: url('../fonts/AcademicaMedium.woff2') format('woff2');
   display: swap;
