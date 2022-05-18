@@ -2454,12 +2454,12 @@ a.button-block {
     color: var(--c-text);
     font-size: var(--font-size-small);
     background-color: var(--c-card-bg-light);
-	
-	@media (min-width: 1500px) .searchbar input[type="text"] {
-	      width: 90%;
-	    }
-	
 }
+
+@media(max-width: 500px) {
+	 .searchbar input[type="text"] {
+	      width: 90%;
+	}
 
 ::placeholder {
     color: var(--c-text-muted);
