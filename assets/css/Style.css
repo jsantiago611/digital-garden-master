@@ -2870,11 +2870,12 @@ position: absolute;
     vertical-align: middle;
     font-family: 'Dia';
     font-weight: normal !important;
-    font-size: var(--font-size-medium);
+    font-size: var(--font-size-small);
     margin-bottom: 0;
     line-height: 1.5rem !important;
     text-transform: uppercase;
     background-color: var(--c-topper-split-bg);
+	border-radius: 0 !important;
 }
 
 .status {
