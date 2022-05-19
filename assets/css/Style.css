@@ -2875,6 +2875,7 @@ position: absolute;
     /* background-color: var(--c-card-bg-light); */
     line-height: 1.5rem !important;
     text-transform: uppercase;
+	background-color: var(--c-topper-split-bg);
 }
 
 
