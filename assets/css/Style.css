@@ -2868,13 +2868,16 @@ position: absolute;
     padding: 0px 10px !important;
     height: auto;
     vertical-align: middle;
-    font-family: 'Salter';
+    font-family: 'Dia';
     font-weight: normal !important;
     font-size: var(--font-size-medium);
     margin-bottom: 0;
     /* background-color: var(--c-card-bg-light); */
     line-height: 1.5rem !important;
-    font-style: italic;
+    text-transform: uppercase;
+}
+
+
 }
 
 .status {
