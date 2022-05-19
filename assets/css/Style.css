@@ -2872,13 +2872,9 @@ position: absolute;
     font-weight: normal !important;
     font-size: var(--font-size-medium);
     margin-bottom: 0;
-    /* background-color: var(--c-card-bg-light); */
     line-height: 1.5rem !important;
     text-transform: uppercase;
-	background-color: var(--c-topper-split-bg);
-}
-
-
+    background-color: var(--c-topper-split-bg);
 }
 
 .status {
