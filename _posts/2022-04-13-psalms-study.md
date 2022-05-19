@@ -2,7 +2,7 @@
 title: Psalms can be turned into personal prayers
 tags: prayer
 categories: note
-status: ongoing
+status: House
 ---
 
 
