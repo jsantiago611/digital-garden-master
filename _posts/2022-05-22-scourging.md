@@ -18,15 +18,15 @@ Each parts of the trial narrative has 3 scenes. So the full breakdown is:
 
 1. Arrest
 2. Trial
-	-Trial part 1
-		-scene1: 
-		-scene2:
-		-scene3:
-			-Scourging
-	-Trial part 2
-		-scene1: 
-		-scene2:
-		-scene3:
+ -Trial part 1
+ -scene1: 
+ -scene2:
+ -scene3:
+ -Scourging
+-Trial part 2
+-scene1: 
+-scene2:
+-scene3:
 3. Crucifiction
 
 Scourging is the centerpiece. 3+1+3 narrative sequence, a 7-fold holistic literary unit, symmetrically balanced around the brutal scourging. 
