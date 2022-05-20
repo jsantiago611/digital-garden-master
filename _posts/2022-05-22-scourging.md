@@ -11,23 +11,22 @@ The scourging of Jesus, as described masterfully by James T. Dennisson (this not
 This will enable us to understand John's placement at this particular place. 
 John's narrative contains: 
 1. arrest, 
-2. trial, 
-  2a. trial a  2b. scourging  2c. trial part 2. 
-3.crucifiction. 
+2. trial, ( further divided into: a.trial...b.scourging...c.trial part 2)
+3. crucifiction
 
 Each parts of the trial narrative has 3 scenes. So the full breakdown is:
 
 1. Arrest
 2. Trial
-	Trial part 1
-		scene1: 
-		scene2:
-		scene3:
-			Scourging
-	Trial part 2
-		scene1: 
-		scene2:
-		scene3:
+	-Trial part 1
+		-scene1: 
+		-scene2:
+		-scene3:
+			-Scourging
+	-Trial part 2
+		-scene1: 
+		-scene2:
+		-scene3:
 3. Crucifiction
 
 Scourging is the centerpiece. 3+1+3 narrative sequence, a 7-fold holistic literary unit, symmetrically balanced around the brutal scourging. 
@@ -47,7 +46,7 @@ And you don't think John is an artist? I feel sorry for you....
 
 The scourge is the aniticipation of his completed passion narrative. It is nonetheless its own self contained unit. Clear from the shifts in camera angle, featured in 19.1 and vs 4. 
 
-[notes on the in and out camera angles]
+notes on the in and out camera angles
 
 The romans also add a coronation. 
 A vicsious display of torture. 
