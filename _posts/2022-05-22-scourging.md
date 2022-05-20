@@ -2,16 +2,16 @@
 title: The scourging of Jesus
 ---
 
-The scourging of Jesus, as described masterfully by James T. Dennisson here, was an act offensive to Jews, greeks, barbarians. Degrading. Distasteful Scourging, the prelude to cruzifixion is detailed in our text today. 
+The scourging of Jesus, as described masterfully by James T. Dennisson (this note is based on Dennison's sermon here), was an act offensive to Jews, greeks, barbarians. Degrading. Distasteful Scourging, the prelude to cruzifixion is detailed in the text below. 
 
-[read text]
+> Pilate then took Jesus and scourged Him. And the soldiers twisted together a crown of thorns and put it on His head, and put a purple robe on Him; 3 and they began to come up to Him and say, “Hail, King of the Jews!” and to give Him slaps in the face.
 
 ## Structure of this portion of John's narrative. 
 
 This will enable us to understand John's placement at this particular place. 
 John's narrative contains: 
-1.arrest, 
-2.trial, 
+1. arrest, 
+2. trial, 
   2a. trial a  2b. scourging  2c. trial part 2. 
 3.crucifiction. 
 
