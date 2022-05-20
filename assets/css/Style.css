@@ -951,7 +951,7 @@ main {
 @media(min-width: 768px) {
 	 h2 {
 		margin-top: 0;
-		padding: 60px 0 12px
+		/*padding: 60px 0 12px*/
 	}
 }
 
@@ -2949,7 +2949,7 @@ position: absolute;
 
 .content {
   line-height: 20px;
-  margin-top: 5rem;
+  margin-top: 2rem;
 }
 
 .content a {
