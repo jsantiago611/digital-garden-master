@@ -23,6 +23,12 @@ There is also a roadmap which contains a full list of features that I plan on de
 
 ## Version Changes
 
+### v1.3: Sleek minimalist UI
+
+*Released in May 2022*
+
+- Lots of Ui changes, including font updates to Ogg for headers, Dia for Subheaders, and Ogg-Text for larger bodies of text. 
+
 ### v1.2: New UI
 
 *Released in April 2022*
