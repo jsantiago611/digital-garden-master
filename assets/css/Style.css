@@ -828,7 +828,7 @@ main {
 
 @media(max-width: 500px) {
 	.menu {
-	padding: 15px 0px 5px 0px;
+	padding: 5px 0px 5px 0px;
 	}
 }
 
@@ -1892,7 +1892,7 @@ border-bottom: 1px solid var(--c-card-border);
     /*border-top: 1px solid var(--c-border); 
     border-bottom: 1px solid var(--c-border); */
     padding: -1px 0; 
-    margin: 15px 0px;
+    margin: 0px 0px 4px 0px;
 }
 
 .menu-right {
