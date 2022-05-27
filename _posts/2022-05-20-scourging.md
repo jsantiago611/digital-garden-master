@@ -2,14 +2,12 @@
 title: The scourging of Jesus
 ---
 
-- Main idea: Death by cruc was offensive to Jews, greeks, barbarians. Degrading. Distasteful
-- transition: Scourging, the prelude to cruzifixion is detailed in our text today. 
+Death by crucifixion was offensive to the Jews, greeks & even barbarians. It was Degrading. It was Distasteful. Scourging, was the prelude to cruzifixion. It's description is detailed in the gospels. 
 
-read text
-
-## Structure of this portion of John's narrative. 
+## Structure of of John's narrative. 
 
 This will enable us to understand John's placement at this particular place. 
+
 John's narrative contains: 
 1.arrest, 
 2.trial, 
