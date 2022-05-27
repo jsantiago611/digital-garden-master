@@ -2899,7 +2899,7 @@ position: absolute;
     padding: 0px 10px !important;
     height: auto;
     vertical-align: middle;
-    font-family: 'Dia';
+    font-family: var(--font-family-sans);
     font-weight: normal !important;
     font-size: var(--font-size-small);
     margin-bottom: 0;
