@@ -1794,6 +1794,7 @@ border-bottom: 1px solid var(--c-card-border);
     box-shadow: none;
     line-height: .9;
     color: var(--c-accent);
+    letter-spacing: var(--letter-spacing-tight);
 }
 
 @media(min-width: 300px)and (max-width: 1069px) {
