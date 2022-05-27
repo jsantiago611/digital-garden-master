@@ -3227,18 +3227,22 @@ label.srs-toggle {
 }
 
 .related-group {
-    background-color: var(--quaternary-bg-color) !important;
+    background-color: var(--c-card-bg-light) !important;
     margin-left: 10px;
     width: 90% !important;
     height: 100%;
     border: 1px solid var(--lime);
     cursor: pointer;
-    border-radius: 0;
+    border-radius: 0px;
+    border: 1px solid var(--c-border-light);
+}
+
+
 }
 
 .related-group:hover {
-    background-color: var(--quaternary-bg-color) !important;
-    border: 2px solid var(--lime);
+    background-color: var(--c-card-bg-light) !important;
+    border: 1px solid var(--c-border-light);
     text-decoration: underline;
 }
 
@@ -3254,8 +3258,8 @@ label.srs-toggle {
     padding-left: 10px;
     padding-right: 10px;
     font-size: 12px !important;
-    font-family:  var(--primary-font-family) !important;
-    font-weight: 600;
+    font-family:  var(--font-family-sans) !important;
+    font-weight: 700;
 }
 
 .related-title:hover {
@@ -3272,7 +3276,7 @@ label.srs-toggle {
 }
 
 .related-excerpt {
-    color: var(--primary-text-color) !important;
+    color: var(--c-text-muted) !important;
     padding-left: 10px;
     padding-right: 5px;
     font-size: 12px !important;
