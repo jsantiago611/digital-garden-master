@@ -937,7 +937,7 @@ main {
 	margin-top: 24px;
 	padding: 24px 0 5px;
 	color: var(--c-text-strong);
-	 font-family: var(--font-family-mono);
+	 font-family: var(--font-family-serif);
 }
 
 @media(min-width: 300px)and (max-width: 1499px) {
@@ -993,7 +993,7 @@ main {
 	line-height: 1.2;
 	margin: 36px 0 5px;
 	color: var(--c-text-strong);
-	 font-family: var(--font-family-mono);
+	 font-family: var(--font-family-serif);
 }
 
 @media(min-width: 300px)and (max-width: 1199px) {
