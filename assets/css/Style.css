@@ -3356,6 +3356,7 @@ label.srs-toggle {
   margin: 0;
   padding-left: 6px;
   padding-right: 6px;
+  background-color: var(--c-btn-alt-bg);
 }
 
 .context-menu__item {
