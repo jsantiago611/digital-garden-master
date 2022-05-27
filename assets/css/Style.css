@@ -1974,7 +1974,7 @@ border-bottom: 1px solid var(--c-card-border);
 }
 
 .stale-link {
-    background-color:red;
+    background-color: #e05968;
 }
 
 
@@ -3460,15 +3460,15 @@ label.srs-toggle {
         left:50%;
         transform:translate(-50%, 0);
         padding:10px 20px;
-        color:var(--primary-text-color);
-        background-color:var(--primary-bg-color);
+        color: var(--c-text);
+        background-color: var(--c-card-bg);
         font-weight:normal;
         font-size:13px;
         border-radius:8px;
         position:absolute;
         z-index:99999999;
         box-sizing:border-box;
-        box-shadow:0 1px 8px var(--primary-box-shadow-color);
+        box-shadow: 0 1px 8px var(--c-card-border);
         display:none;
     }
 
@@ -3499,7 +3499,7 @@ label.srs-toggle {
 
     .bottom .tooltip-title {
         font-size: 14px;
-        font-weight: 500;
+        font-weight: 700;
         display: inline-block;
     }
 
