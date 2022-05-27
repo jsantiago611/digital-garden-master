@@ -3237,9 +3237,6 @@ label.srs-toggle {
     border: 1px solid var(--c-border-light);
 }
 
-
-}
-
 .related-group:hover {
     background-color: var(--c-card-bg-light) !important;
     border: 1px solid var(--c-border-light);
