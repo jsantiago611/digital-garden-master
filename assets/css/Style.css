@@ -7,6 +7,22 @@ layout: Stylesheet
 /* Containers: Body, Container, Box, Main, Header, Content */
 
 @font-face {
+  font-family: 'Case';
+  src: url('../fonts/casetextbold.woff2') format('woff2');
+  display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Case';
+  src: url('../fonts/casetextreg.woff2') format('woff2');
+  display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'Dia';
   src: url('../fonts/DiaBlack.woff') format('woff');
   display: swap;
