@@ -7,6 +7,13 @@ layout: Stylesheet
 /* Containers: Body, Container, Box, Main, Header, Content */
 
 @font-face {
+  font-family: 'Nikolai';
+  src: url('../fonts/nikolai.woff2') format('woff2');
+  display: swap;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'Case';
   src: url('../fonts/casetextbold.woff2') format('woff2');
   display: swap;
