@@ -7,6 +7,15 @@ layout: Stylesheet
 /* Containers: Body, Container, Box, Main, Header, Content */
 
 
+
+
+@font-face {
+  font-family: 'Respira';
+  src: url('../fonts/Respira-Black.woff2') format('woff2');
+  display: swap;
+  font-style: normal;
+}
+
 @font-face {
   font-family: 'Suisse-Sans';
   src: url('../fonts/SuisseIntl-Regular-WebM.woff2') format('woff2');
