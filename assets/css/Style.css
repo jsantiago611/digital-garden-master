@@ -6,6 +6,21 @@ layout: Stylesheet
 /*@import "/assets/css/theme.css"; leaving out for now, will tinker w/color switcher later...*/
 /* Containers: Body, Container, Box, Main, Header, Content */
 
+
+@font-face {
+  font-family: 'Suisse-Sans';
+  src: url('../fonts/SuisseIntl-Regular-WebM.woff2') format('woff2');
+  display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Suisse-Serif';
+  src: url('../fonts/SuisseWorks-Regular-WebS.woff2') format('woff2');
+  display: swap;
+  font-style: normal;
+}
+
 @font-face {
   font-family: 'Nikolai';
   src: url('../fonts/nikolai.woff2') format('woff2');
