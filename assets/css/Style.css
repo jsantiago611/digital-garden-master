@@ -794,6 +794,7 @@ html[data-theme="dark"] {
   --font-family-sans: "Suisse-Serif", -apple-system, BlinkMacSystemFont,
     avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto,
     noto, arial, sans-serif;
+    --primary-font-family: "Respira";
 
   --font-family-base: var(--font-family-serif);
 
