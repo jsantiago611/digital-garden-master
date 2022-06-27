@@ -1814,7 +1814,7 @@ border-bottom: 1px solid var(--c-card-border);
     text-decoration: none;
     font-weight: 500;
     font-size: 70px;
-    font-family: var(--font-family-serif);
+    font-family: var(--header);
     box-shadow: none;
     line-height: .9;
     color: var(--c-accent);
