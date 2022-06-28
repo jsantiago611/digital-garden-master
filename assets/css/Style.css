@@ -2805,18 +2805,18 @@ a.button-block {
     font-family:  var(--font-family-serif);
     font-weight: 400;
     letter-spacing: var(--letter-spacing-tight);
-    font-size: 35px;
+    font-size: 20px;
     line-height: 1;
     /*border-bottom: 1px solid var(--c-card-text);*/
     padding-bottom: 0;
     margin-bottom: 1.5rem;
 
     @media(min-width: 300px)and (max-width:1499px) {
-      font-size: calc(35px + (49 - 35) * ( 100vw - 300px) / ( 1500 - 300))
+      font-size: calc(20px + (35 - 20) * ( 100vw - 300px) / ( 1500 - 300))
     }
 
     @media(min-width: 1500px) {
-      font-size: 49px;
+      font-size: 35px;
     }
 }
 
