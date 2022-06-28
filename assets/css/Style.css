@@ -7,8 +7,6 @@ layout: Stylesheet
 /* Containers: Body, Container, Box, Main, Header, Content */
 
 
-
-
 @font-face {
   font-family: 'Respira';
   src: url('../fonts/Respira-Black.woff2') format('woff2');
@@ -787,14 +785,14 @@ html[data-theme="dark"] {
   --line-height-snug: 1.375;
 
   /* Font family */
-  --font-family-serif: "Suisse-Sans", Iowan Old Style, Apple Garamond, Baskerville,
+  --font-family-serif: "Pitch Sans", Iowan Old Style, Apple Garamond, Baskerville,
     Times New Roman, Droid Serif, Times, Source Serif Pro, serif,
     Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-  --font-family-mono: "Suisse-Sans", 'SFMono-Regular', 'Menlo', monospace;
-  --font-family-sans: "Suisse-Serif", -apple-system, BlinkMacSystemFont,
+  --font-family-mono: "Pitch Sans", 'SFMono-Regular', 'Menlo', monospace;
+  --font-family-sans: "Pitch Sans", -apple-system, BlinkMacSystemFont,
     avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto,
     noto, arial, sans-serif;
-    --header: "Respira";
+    --header: "Pitch Sans";
 
   --font-family-base: var(--font-family-serif);
 
@@ -906,7 +904,7 @@ main {
   	/*padding-bottom: 1.3rem;*/
 	letter-spacing: var(--letter-spacing-tight);
  	font-variant-ligatures: discretionary-ligatures;
-	
+	text-transform: uppercase;
 }
 
 @media(min-width: 300px)and (max-width: 1069px) {
@@ -1819,6 +1817,7 @@ border-bottom: 1px solid var(--c-card-border);
     line-height: .9;
     color: var(--c-accent);
     letter-spacing: var(--letter-spacing-tight);
+    text-transform: uppercase;
 }
 
 @media(min-width: 300px)and (max-width: 1069px) {
@@ -2102,7 +2101,7 @@ border-bottom: 1px solid var(--c-card-border);
     margin-left: 5px;
     font-weight: 400;
     font-size: var(--font-size-small);
-    font-family: var(--font-family-mono);
+    font-family: var(--font-family-serif);
     color: var(--c-text);
     margin-bottom: 0;
     text-transform: uppercase;
@@ -2509,7 +2508,7 @@ a.button-block {
     width: 100%;
     height: 40px;
     border: 1px solid transparent;
-    font-family: var(--font-family-sans) !important;
+    font-family: var(--font-family-base) !important;
     color: var(--c-text);
     font-size: var(--font-size-small);
     background-color: transparent;
