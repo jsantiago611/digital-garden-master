@@ -2093,7 +2093,7 @@ border-bottom: 1px solid var(--c-card-border);
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--c-card-bg-light);
+    background-color: var(--c-btn-bg);
     cursor: pointer;
     z-index: 75;
     transition: transform .5s ease 0s,visibility 0s linear .5s;
@@ -2103,7 +2103,7 @@ border-bottom: 1px solid var(--c-card-border);
     font-weight: 400;
     font-size: var(--font-size-small);
     font-family: var(--font-family-mono);
-    color: var(--c-text-muted);
+    color: var(--c-text);
     margin-bottom: 0;
     text-transform: uppercase;
     padding: 7px;
@@ -2503,7 +2503,7 @@ a.button-block {
 
 
 .searchbar input[type="text"] {
-        margin-left: 20px;
+        /*margin-left: 20px;*/
     padding-left: 18px;
     box-sizing: border-box;
     width: 100%;
@@ -2512,8 +2512,8 @@ a.button-block {
     font-family: var(--font-family-sans) !important;
     color: var(--c-text);
     font-size: var(--font-size-small);
-    background-color: var(--c-card-bg-light);
-	text-align: center;
+    background-color: transparent;
+    text-align: center;
 }
 
 @media(max-width: 500px) {
