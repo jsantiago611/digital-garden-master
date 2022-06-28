@@ -1811,7 +1811,7 @@ border-bottom: 1px solid var(--c-card-border);
 .site-heading-ltr a {
     text-decoration: none;
     font-weight: 500;
-    font-size: 50px;
+    font-size: 47px;
     font-family: var(--header);
     box-shadow: none;
     line-height: .9;
@@ -1822,7 +1822,7 @@ border-bottom: 1px solid var(--c-card-border);
 
 @media(min-width: 300px)and (max-width: 1069px) {
 	 .site-heading-ltr a {
-	font-size: calc(50px + (70 - 50) * ( 100vw - 300px) / (1070 - 300));
+	font-size: calc(47px + (70 - 47) * ( 100vw - 300px) / (1070 - 300));
 	}
 }
 
@@ -2105,8 +2105,8 @@ border-bottom: 1px solid var(--c-card-border);
     color: var(--c-text);
     margin-bottom: 0;
     text-transform: uppercase;
-    padding: 7px;
-    border-radius: 2px;
+    padding: 7px 10px;
+    border-radius: 2000px;
 }
 
 #theme-toggle-img {
