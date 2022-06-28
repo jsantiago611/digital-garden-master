@@ -3032,6 +3032,11 @@ position: absolute;
     background-color: var(--lime);
 }
 
+.content a::after {
+	content:'→';
+	font-family: var(--font-family-sans) !important;
+}
+
 .sn-right,
 .mn-right {
     float: right;
