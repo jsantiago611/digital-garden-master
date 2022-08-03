@@ -2,7 +2,7 @@
 layout: Stylesheet
 ---
 
-@import "/assets/css/highlight.css";
+@import "/assets/css/highlight.css"
 /*@import "/assets/css/theme.css"; leaving out for now, will tinker w/color switcher later...*/
 /* Containers: Body, Container, Box, Main, Header, Content */
 
@@ -2808,7 +2808,7 @@ a.button-block {
 }
 
 .feed-title {
-    color: inherit;
+    color: var(--c-text-strong);
     margin-left: 20px;
     margin-right: 50px;
     font-family:  var(--font-family-serif);
