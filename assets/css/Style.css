@@ -2101,11 +2101,10 @@ border-bottom: 1px solid var(--c-card-border);
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--c-btn-bg);
     cursor: pointer;
     z-index: 75;
     transition: transform .5s ease 0s,visibility 0s linear .5s;
-    border: transparent;
+    border: 1px solid var(--c-border);
     margin-top: 0px;
     margin-left: 5px;
     font-weight: 400;
@@ -2113,10 +2112,8 @@ border-bottom: 1px solid var(--c-card-border);
     font-family: var(--font-family-serif);
     color: var(--c-text);
     margin-bottom: 0;
-    text-transform: lowercase;
     padding: 7px 10px;
     border-radius: 2000px;
-    font-style: italic;
 }
 
 #theme-toggle-img {
