@@ -2,7 +2,7 @@
 layout: Stylesheet
 ---
 
-@import "/assets/css/highlight.css"
+@import "/assets/css/highlight.css";
 /*@import "/assets/css/theme.css"; leaving out for now, will tinker w/color switcher later...*/
 /* Containers: Body, Container, Box, Main, Header, Content */
 
