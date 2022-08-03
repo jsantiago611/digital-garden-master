@@ -2784,6 +2784,7 @@ a.button-block {
     margin: 2rem 0;
     padding-bottom: 1rem;
     margin-bottom: 7px;
+    color: var(--c-text-strong);
     /*border-top: clamp(1rem, 0.4286rem + 1.0204vw, 1.5rem) solid var(--c-card-text-muted);*/
 }
 
@@ -2794,6 +2795,7 @@ a.button-block {
     transition-duration: 0.2s;
     transition-timing-function: ease;
     transition-delay: 0s;
+	color: var(--c-bg);
 }
 
 .srccode {
@@ -2806,7 +2808,7 @@ a.button-block {
 }
 
 .feed-title {
-    color: var(--c-text-strong);
+    color: inherit;
     margin-left: 20px;
     margin-right: 50px;
     font-family:  var(--font-family-serif);
@@ -2827,12 +2829,8 @@ a.button-block {
     }
 }
 
-.feed-title:hover {
-  color: var(--c-bg);
-}
-
 .feed-excerpt{
-    color: var(--c-border);
+    color: var(--c-border) !important;
     margin-top: -20px;
     margin-left: 20px !important;
     margin-right: 30px;
