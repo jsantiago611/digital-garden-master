@@ -2514,13 +2514,13 @@ a.button-block {
     box-sizing: border-box;
     width: 100%;
     height: 40px;
-    border: 1px solid transparent;
+    border-bottom: 1px solid var(--c-border);
     font-family: var(--font-family-base) !important;
     color: var(--c-text);
     font-size: var(--font-size-small);
     background-color: transparent;
     text-align: center;
-    font-style: italic;
+	
 }
 
 @media(max-width: 500px) {
@@ -2778,12 +2778,10 @@ a.button-block {
 .feed-title-excerpt-block {
     width: 100%;
     cursor: pointer;
-    /*border: 1px solid var(--c-card-border-light);*/
-    /*background-color: var(--c-gradient-fade);*/
     margin: 2rem 0;
     padding-bottom: 1rem;
-	margin-bottom: 7px;
-    /*border-radius: 1rem;*/
+    margin-bottom: 7px;
+    border-top: clamp(1rem, 0.4286rem + 1.0204vw, 1.5rem) solid var(--c-card-text-muted);
 }
 
 .feed-title-excerpt-block:hover {
