@@ -2788,7 +2788,7 @@ a.button-block {
 }
 
 .feed-title-excerpt-block:hover {
-    /*background-color: var(--secondary-bg-color);*/
+    background-color: var(--c-text-strong);
 }
 
 .srccode {
