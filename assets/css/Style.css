@@ -2803,7 +2803,7 @@ a.button-block {
 }
 
 .feed-title {
-    color: var(--c-text-strong);
+    color: inherit;
     margin-left: 20px;
     margin-right: 50px;
     font-family:  var(--font-family-serif);
