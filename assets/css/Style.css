@@ -2791,11 +2791,7 @@ a.button-block {
 .feed-title-excerpt-block:hover {
     background-color: var(--c-text-strong);
     transition: color .2s;
-    transition-property: color;
-    transition-duration: 0.2s;
-    transition-timing-function: ease;
-    transition-delay: 0s;
-	color: var(--c-bg);
+    color: var(--c-bg);
 }
 
 .srccode {
