@@ -2781,9 +2781,7 @@ a.button-block {
 .feed-title-excerpt-block {
     width: 100%;
     cursor: pointer;
-    margin: 2rem 0;
     padding-bottom: 1rem;
-    margin-bottom: 7px;
     color: var(--c-text-strong);
     /*border-top: clamp(1rem, 0.4286rem + 1.0204vw, 1.5rem) solid var(--c-card-text-muted);*/
 }
