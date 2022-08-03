@@ -2824,6 +2824,10 @@ a.button-block {
     }
 }
 
+.feed-title:hover {
+	color: inherit;
+}
+
 .feed-excerpt{
     color: var(--c-border) !important;
     margin-top: -20px;
