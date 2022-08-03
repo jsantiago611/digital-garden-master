@@ -2829,14 +2829,18 @@ a.button-block {
 }
 
 .feed-excerpt{
-    color: var(--primary-text-color);
-    margin-top: -12px;
+    color: var(--c-border);
+    margin-top: -20px;
     margin-left: 20px !important;
     margin-right: 30px;
-    font-family:  var(--font-family-sans);
+    font-family: var(--font-family-serif);
     font-size: 15px;
     overflow: hidden;
     margin-bottom: 5px;
+    font-weight: 500;
+    font-size: calc(20px + (35 - 20) * ( 100vw - 300px) / ( 1500 - 300));
+    line-height: 1.7rem;
+    letter-spacing: var(--letter-spacing-tight);
 }
 
 .tags {
