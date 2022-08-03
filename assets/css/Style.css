@@ -2781,7 +2781,7 @@ a.button-block {
     margin: 2rem 0;
     padding-bottom: 1rem;
     margin-bottom: 7px;
-    border-top: clamp(1rem, 0.4286rem + 1.0204vw, 1.5rem) solid var(--c-card-text-muted);
+    /*border-top: clamp(1rem, 0.4286rem + 1.0204vw, 1.5rem) solid var(--c-card-text-muted);*/
 }
 
 .feed-title-excerpt-block:hover {
