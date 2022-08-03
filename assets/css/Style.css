@@ -2834,7 +2834,7 @@ a.button-block {
     margin-bottom: 5px;
     font-weight: 500;
     font-size: calc(20px + (35 - 20) * ( 100vw - 300px) / ( 1500 - 300));
-    line-height: 1.7rem;
+    line-height: 1.2;
     letter-spacing: var(--letter-spacing-tight);
 }
 
