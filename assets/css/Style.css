@@ -3038,10 +3038,6 @@ position: absolute;
     background-color: var(--lime);
 }
 
-.content a::after {
-	content:'→';
-	font-family: "pitch arrow" !important;
-}
 
 .sn-right,
 .mn-right {
