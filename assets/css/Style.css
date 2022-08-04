@@ -1142,7 +1142,7 @@ a, p, ul, li, ol, table, span, blockquote {
 }
 
 p, li {
-	font-size: 18px;
+	font-size: 20px;
 	font-family: var(--font-family-sans);
 	line-height: 1.4;
 	font-weight: 300;
@@ -1181,13 +1181,13 @@ p a:focus {
 
 @media(min-width: 300px)and (max-width: 1499px) {
 	p, li {
-		font-size: calc(17px + (22 - 17) * ( 100vw - 300px) / (1500 - 300))
+		font-size: calc(20px + (25 - 20) * ( 100vw - 300px) / (1500 - 300))
 	}
 }
 
 @media(min-width: 1500px) {
 	p,li {
-		font-size: 22px
+		font-size: 25px
 	}
 }
 
