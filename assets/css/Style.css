@@ -2189,8 +2189,8 @@ border-bottom: 1px solid var(--c-card-border);*/
     font-family: var(--font-family-serif);
     color: var(--c-text);
     margin-bottom: 0;
-    padding: 7px 10px;
-    border-radius: 2000px;
+    padding: 10px 10px;
+    border-radius: 10px;
 }
 
 #theme-toggle-img {
