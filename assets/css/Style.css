@@ -1899,8 +1899,9 @@ border-bottom: 1px solid var(--c-card-border);*/
     box-shadow: none;
     line-height: .9;
     color: var(--c-accent);
-    letter-spacing: var(--letter-spacing-tight);
+    letter-spacing: -1px;
     /*text-transform: uppercase;*/
+	
 }
 
 @media(min-width: 300px)and (max-width: 1069px) {
@@ -2047,12 +2048,15 @@ border-bottom: 1px solid var(--c-card-border);*/
 }
 
 .menu-item {
-    flex-basis: auto;
+        flex-basis: auto;
     display: flex;
     flex-direction: column;
     text-decoration: none;
     vertical-align: middle;
     padding: 8px 4.9px;
+    background-color: var(--c-btn-alt-bg);
+    border-radius: 10px;
+	margin: 0 5px;
     @media(min-width: 500px) {
         padding: 10px 20px;
     }
@@ -2583,20 +2587,20 @@ a.button-block {
 
 
 .searchbar input[type="text"] {
-        /*margin-left: 20px;*/
     padding-left: 18px;
     box-sizing: border-box;
     width: 100%;
     height: 40px;
-    border-bottom: 1px solid var(--c-border);
-    border-top: transparent;
-	border-right: transparent;
-	border-left: transparent;
+    border: 1px solid var(--c-border);
+    /* border-top: transparent; */
+    /* border-right: transparent; */
+    /* border-left: transparent; */
     font-family: var(--font-family-base) !important;
     color: var(--c-text);
     font-size: var(--font-size-small);
     background-color: transparent;
     text-align: center;
+    border-radius: 999px;
 	
 }
 
@@ -2913,7 +2917,6 @@ a.button-block {
     font-weight: 300;
     font-size: calc(16px + (22 - 16) * ( 100vw - 300px) / ( 1500 - 300));
     line-height: 1.2;
-    letter-spacing: -1px;
 }
 
 .tags {
