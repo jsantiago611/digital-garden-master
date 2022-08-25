@@ -731,7 +731,7 @@ layout: Stylesheet
 /*light/dark mode colors*/
 
 html, html[data-theme="light"] {
-	--c-bg: #ffffff;
+	--c-bg: #f5f3ef;
     --c-accent: #946e24;
     --c-text: #1c1c1c;
     --c-text-muted: #555555;
@@ -807,7 +807,7 @@ html[data-theme="dark"] {
 	}
 
 	html[data-theme="light"] {
-	--c-bg: #ffffff;
+	--c-bg: #f5f3ef;
     --c-accent: #946e24;
     --c-text: #1c1c1c;
     --c-text-muted: #555555;
