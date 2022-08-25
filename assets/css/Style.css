@@ -1867,8 +1867,8 @@ summary {
     font-family:  var(--header) !important;
     font-weight: 600;
     margin-left: 20px;
-    /*margin-bottom: 2rem;*/
-border-bottom: 1px solid var(--c-card-border);
+    /*margin-bottom: 2rem;
+border-bottom: 1px solid var(--c-card-border);*/
 	padding-bottom: 0.2rem;
 }
 
@@ -2902,7 +2902,7 @@ a.button-block {
 }
 
 .feed-excerpt{
-    color: var(--c-border) !important;
+    color: var(--c-text-muted) !important;
     margin-top: -20px;
     margin-left: 20px !important;
     margin-right: 30px;
@@ -2913,7 +2913,7 @@ a.button-block {
     font-weight: 300;
     font-size: calc(16px + (22 - 16) * ( 100vw - 300px) / ( 1500 - 300));
     line-height: 1.2;
-    letter-spacing: var(--letter-spacing-tight);
+    letter-spacing: -1px;
 }
 
 .tags {
