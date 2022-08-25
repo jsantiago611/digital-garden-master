@@ -980,13 +980,13 @@ main {
 	font-variant-numeric: oldstyle-nums;
 	font-feature-settings: pnum;
 	font-family: var(--font-family-serif);
-	font-weight: 500;
+	font-weight: 700;
 	line-height: var(--line-height-tight);
 	margin: 80px 0 8px;
 	color: var(--c-text-strong);
   	/* border-bottom: 1px solid var(--c-border) !important;*/
   	/*padding-bottom: 1.3rem;*/
-	letter-spacing: var(--letter-spacing-tight);
+	letter-spacing: -.07em;
  	font-variant-ligatures: discretionary-ligatures;
 }
 
@@ -1037,8 +1037,8 @@ main {
 
  h2 {
 	font-size: 28px;
-	font-weight: 500;
-	letter-spacing: var(--letter-spacing-tight);
+	font-weight: 700;
+	letter-spacing: -.04em;
 	line-height: 1.2;
 	margin-top: 24px;
 	padding: 24px 0 5px;
@@ -3156,9 +3156,11 @@ position: absolute;
 .sidenote-number:after,
 .sn-left:before,
 .sn-right:before {
-    font-family:  var(--secondary-font-family) !important;
+    font-family: 'NB';
     position: relative;
     vertical-align: baseline;
+    font-weight: 700;
+    color: var(--c-accent);
 }
 
 .sidenote-number:after {
