@@ -2054,7 +2054,7 @@ border-bottom: 1px solid var(--c-card-border);*/
     text-decoration: none;
     vertical-align: middle;
     padding: 8px 4.9px;
-    background-color: var(--c-btn-alt-bg);
+   background-color: var(--c-btn-bg);
     border-radius: 10px;
 	margin: 0 5px;
     @media(min-width: 500px) {
@@ -2075,7 +2075,7 @@ border-bottom: 1px solid var(--c-card-border);*/
     font-weight: 400;
     font-size: var(--font-size-small);
     font-family: var(--font-family-mono);
-    color: var(--c-text-muted);
+    color: var(--c-text);
     margin-bottom: 0;
     text-transform: lowercase;
 }
