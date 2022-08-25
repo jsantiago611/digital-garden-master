@@ -873,12 +873,12 @@ html[data-theme="dark"] {
   --line-height-snug: 1.375;
 
   /* Font family */
-  --font-family-serif: "radio", -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;  
-    --font-family-mono: "radio", 'SFMono-Regular', 'Menlo', monospace;
-    --font-family-sans: "signifier", Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-    --header: "radio", -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif; 
-
+ --font-family-serif: "NB", -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
+    --font-family-mono: "NB", 'SFMono-Regular', 'Menlo', monospace;
+    --font-family-sans: "Koor", Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    --header: "NB", -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
   --font-family-base: var(--font-family-serif);
+	
 
   /* Letter spacing */
     /*--letter-spacing-tight: -.055em;*/
@@ -2880,14 +2880,13 @@ a.button-block {
     color: inherit;
     margin-left: 20px;
     margin-right: 50px;
-    font-family:  var(--font-family-serif);
-    font-weight: 500;
-    letter-spacing: var(--letter-spacing-tight);
+    font-family: var(--font-family-serif);
+    font-weight: 700;
     font-size: 30px;
     line-height: 1;
-    /*border-bottom: 1px solid var(--c-card-text);*/
     padding-bottom: 0;
     margin-bottom: 1.5rem;
+    letter-spacing: -1.8px;
 
     @media(min-width: 300px)and (max-width:1499px) {
       font-size: calc(30px + (35 - 30) * ( 100vw - 300px) / ( 1500 - 300))
@@ -2907,12 +2906,12 @@ a.button-block {
     margin-top: -20px;
     margin-left: 20px !important;
     margin-right: 30px;
-    font-family: var(--font-family-serif);
-    font-size: 15px;
+    font-family: var(--font-family-sans);
+    font-size: 34px;
     overflow: hidden;
     margin-bottom: 5px;
-    font-weight: 500;
-    font-size: calc(20px + (35 - 20) * ( 100vw - 300px) / ( 1500 - 300));
+    font-weight: 300;
+    font-size: calc(16px + (22 - 16) * ( 100vw - 300px) / ( 1500 - 300));
     line-height: 1.2;
     letter-spacing: var(--letter-spacing-tight);
 }
