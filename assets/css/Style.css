@@ -986,7 +986,7 @@ main {
 	color: var(--c-text-strong);
   	/* border-bottom: 1px solid var(--c-border) !important;*/
   	/*padding-bottom: 1.3rem;*/
-	letter-spacing: -.07em;
+	letter-spacing: -.05em;
  	font-variant-ligatures: discretionary-ligatures;
 }
 
@@ -2077,7 +2077,6 @@ border-bottom: 1px solid var(--c-card-border);*/
     font-family: var(--font-family-mono);
     color: var(--c-text);
     margin-bottom: 0;
-    text-transform: lowercase;
 }
 
 .menu-item-text:hover {
