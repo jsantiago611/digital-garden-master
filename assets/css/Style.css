@@ -2048,18 +2048,14 @@ border-bottom: 1px solid var(--c-card-border);*/
 }
 
 .menu-item {
-        flex-basis: auto;
+       flex-basis: auto;
     display: flex;
     flex-direction: column;
     text-decoration: none;
     vertical-align: middle;
     padding: 8px 4.9px;
-   background-color: var(--c-btn-bg);
     border-radius: 10px;
-	margin: 0 5px;
-    @media(min-width: 500px) {
-        padding: 10px 20px;
-    }
+    margin: 0 5px;
 }
 
 .menu-item-icon {
