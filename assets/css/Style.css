@@ -956,6 +956,8 @@ body {
 header {
     display: flex;
     flex-direction: column;
+    background-color: var(--c-accent);
+    padding: 1rem;
 }
 
 main {
@@ -1898,10 +1900,8 @@ border-bottom: 1px solid var(--c-card-border);*/
     font-family: var(--header);
     box-shadow: none;
     line-height: .9;
-    color: var(--c-accent);
-    letter-spacing: -.16rem;
-    /*text-transform: uppercase;*/
-	
+    color: var(--c-text);
+    letter-spacing: -.16rem;	
 }
 
 @media(min-width: 300px)and (max-width: 1069px) {
