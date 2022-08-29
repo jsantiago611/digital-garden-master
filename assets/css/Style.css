@@ -731,9 +731,9 @@ layout: Stylesheet
 /*light/dark mode colors*/
 
 html, html[data-theme="light"] {
-	--c-bg: #f5f3ef;
-    --c-accent: #946e24;
-    --c-text: #1c1c1c;
+	--c-bg: #f0f0f0;
+    --c-accent: #e6ffa0;
+    --c-text: #3c3830;
     --c-text-muted: #555555;
     --c-text-strong: #1c1c1c;
     --c-text-link: #6b501a;
@@ -807,9 +807,9 @@ html[data-theme="dark"] {
 	}
 
 	html[data-theme="light"] {
-	--c-bg: #f5f3ef;
-    --c-accent: #946e24;
-    --c-text: #1c1c1c;
+	--c-bg: #f0f0f0;
+    --c-accent: #e6ffa0;
+    --c-text: #3c3830;
     --c-text-muted: #555555;
     --c-text-strong: #1c1c1c;
     --c-text-link: #6b501a;
@@ -1894,25 +1894,25 @@ border-bottom: 1px solid var(--c-card-border);*/
 .site-heading-ltr a {
     text-decoration: none;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 40px;
     font-family: var(--header);
     box-shadow: none;
     line-height: .9;
     color: var(--c-accent);
-    letter-spacing: -1px;
+    letter-spacing: -.16rem;
     /*text-transform: uppercase;*/
 	
 }
 
 @media(min-width: 300px)and (max-width: 1069px) {
 	 .site-heading-ltr a {
-	font-size: calc(30px + (35 - 30) * ( 100vw - 300px) / (1070 - 300));
+	font-size: calc(40px + (55 - 40) * ( 100vw - 300px) / (1070 - 300));
 	}
 }
 
 @media(min-width: 1070px) {
 	 .site-heading-ltr a {
-		font-size: 35px
+		font-size: 55px
 	}
 }
 
@@ -2591,16 +2591,11 @@ a.button-block {
     width: 100%;
     height: 40px;
     border: 1px solid var(--c-border);
-    /* border-top: transparent; */
-    /* border-right: transparent; */
-    /* border-left: transparent; */
     font-family: var(--font-family-base) !important;
     color: var(--c-text);
     font-size: var(--font-size-small);
-    background-color: transparent;
-    text-align: center;
-    border-radius: 999px;
-	
+    background-color: white;
+    text-align: center;	
 }
 
 @media(max-width: 500px) {
@@ -2880,7 +2875,6 @@ a.button-block {
 }
 
 .feed-title {
-    color: inherit;
     margin-left: 20px;
     margin-right: 50px;
     font-family: var(--font-family-serif);
@@ -2890,6 +2884,13 @@ a.button-block {
     padding-bottom: 0;
     margin-bottom: 1.5rem;
     letter-spacing: -1.8px;
+    border-bottom: 1px solid transparent;
+    -webkit-box-shadow: inset 0 -0.5em #e6ffa0;
+    box-shadow: inset 0 -0.5em #e6ffa0;
+    color: #3c3830;
+    display: inline-block;
+    -webkit-transition: all .2s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all .2s cubic-bezier(0.645, 0.045, 0.355, 1);
 
     @media(min-width: 300px)and (max-width:1499px) {
       font-size: calc(30px + (35 - 30) * ( 100vw - 300px) / ( 1500 - 300))
@@ -2901,7 +2902,9 @@ a.button-block {
 }
 
 .feed-title:hover {
-	color: inherit;
+	border-bottom: 1px dotted #3c3830;
+    -webkit-box-shadow: inset 0 -0.5em transparent;
+    box-shadow: inset 0 -0.5em transparent;
 }
 
 .feed-excerpt{
