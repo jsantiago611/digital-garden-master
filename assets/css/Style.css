@@ -17,6 +17,15 @@ layout: Stylesheet
 }
 
 @font-face {
+  font-family: 'Panama';
+  font-display: swap;
+  font-style: italic;
+  font-weight: 400;
+  font-named-instance: 'Regular';
+  src: url('../fonts/PanamaItalic.woff') format('woff');
+}
+
+@font-face {
   font-family: 'NeueHaasGrot';
   font-display: swap;
   font-style: normal;
