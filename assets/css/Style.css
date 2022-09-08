@@ -6,6 +6,24 @@ layout: Stylesheet
 /*@import "/assets/css/theme.css"; leaving out for now, will tinker w/color switcher later...*/
 /* Containers: Body, Container, Box, Main, Header, Content */
 
+
+@font-face {
+  font-family: 'Panama';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  font-named-instance: 'Regular';
+  src: url('../fonts/PanamaRegular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'NeueHaasGrot';
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: 'Regular';
+  src: url('../fonts/Haas_Grot_Text_Round_Web-65_Medium.woff2') format('woff2');
+}
+
 @font-face {
   font-family: 'Ginto';
   font-display: swap;
